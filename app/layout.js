@@ -1,7 +1,7 @@
 import './globals.css'
 import {Poppins, Roboto } from 'next/font/google'
-import Footer from '../components/ui/footer'
-import Header from '../components/ui/header'
+import Footer from '../components/ui/Footer'
+import Header from '../components/ui/Header'
 
 const roboto = Roboto({subsets : ['latin'], weight : ['100','300','400','500','700'],variable: '--font-roboto'})
 const poppins = Poppins({subsets : ['latin'], weight : ['700'], variable : '--font-poppins'})
