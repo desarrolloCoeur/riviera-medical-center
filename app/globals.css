@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    h1 {
+        @apply font-title font-bold text-4xl text-[#00b5bd] mb-3
+    }
+
+    h2{
+        @apply font-title font-bold text-2xl text-[#00b5bd] mb-3
+    }
+    h3{
+        @apply font-title font-bold text-xl text-[#00b5bd] mb-2
+
+    }
+
+    body{
+        @apply font-text text-base font-normal text-[#505050]
+    }
+
+    .btn-primary{
+        @apply font-title text-xl font-semibold bg-[#FF9143] p-2 uppercase rounded-md text-white 
+    }
+}
+

@@ -1,0 +1,38 @@
+[
+    {
+        "title" : "Nutriologia",
+        "slug" : "nutriologia",
+        "doctor" : "Naira Ciseros",
+        "doctorimg" : "/img/doctor-1.png",
+        "description" : "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de nutriología liderado por la destacada doctora Naira Cisneros. Con su licenciatura en Nutrición y amplia experiencia en el campo, la Dra. Cisneros se especializa en brindar atención personalizada y experta en nutrición. Ya sea que busques perder peso, mejorar tu salud digestiva, manejar condiciones específicas o simplemente adoptar hábitos alimentarios más saludables, la Dra. Cisneros te proporcionará un plan nutricional adaptado a tus necesidades individuales. Con su enfoque centrado en la salud integral, recibirás el apoyo necesario para alcanzar tus objetivos y disfrutar de una vida más saludable. Confía en el conocimiento y la experiencia de la Dra. Naira Cisneros para cuidar de tu nutrición y bienestar.",
+        "img" : "/img/nutricion.webp",
+        "imgservice" : "/img/nutriologia.jpg",
+        "imghero" : "/img/nutriologia-hero.jpg",
+        "icon" : "/img/icons/nutriologia.png"
+    },
+    {
+        "title" : "Psicologia",
+        "slug" : "psicologia",
+        "img" : "/img/psicologia.webp"
+    },
+    {
+        "title" : "Terapia Fisica",
+        "slug" : "terapia-fisica",
+        "img" : "/img/terapia-fisica.webp"
+    },
+    {
+        "title" : "Medicina General",
+        "slug" : "medicina-general",
+        "img" : "/img/medicina-general.webp"
+    },
+    {
+        "title" : "Odontologia",
+        "slug" : "odontologia",
+        "img" : "/img/odontologia.webp"
+    },
+    {
+        "title" : "Cosmetologia",
+        "slug" : "cosmetologia",
+        "img" : "/img/cosmetologia.webp"
+    }
+]
