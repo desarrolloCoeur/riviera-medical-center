@@ -1,7 +1,4 @@
 import Link from "next/link";
-import React from "react";
-import {FaAppleAlt, FaTooth} from 'react-icons/fa'
-import {AiFillMedicineBox} from 'react-icons/ai'
 import Image from "next/image";
 
 const Services = () => {

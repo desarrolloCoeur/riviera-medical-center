@@ -6,7 +6,7 @@ const page = () => {
         <>
             <div>
                 <div className="container w-11/12 mx-auto">
-                <h1>Nosotros</h1>
+                    <h1>Nosotros</h1>
                 </div>
             </div>
             <div className="container w-11/12 mx-auto my-10">
@@ -38,25 +38,27 @@ const page = () => {
                 <div className="grid grid-cols-3 gap-5 my-10">
                     <div>
                         <h2>Mision</h2>
-                        <p>Brindar servicios de calidad con 
-sentido humano en un espacio seguro, 
-condos,  empáticos y solidarios, nuestro 
-propósito es brindar soluciones armoniosas
-para mejorar el bienestar y la salud.</p>
+                        <p>
+                            Brindar servicios de calidad con sentido humano en
+                            un espacio seguro, condos, empáticos y solidarios,
+                            nuestro propósito es brindar soluciones armoniosas
+                            para mejorar el bienestar y la salud.
+                        </p>
                     </div>
                     <div>
                         <h2>Vision</h2>
-                        <p>Mantener una atencion calida,  humana 
-y profesional dentro de  instalaciones, 
-consolidarnos como una marca genuina 
-y expandirse hacia otras localidades 
-Ser un centro  de atención de vanguardia,
- espacios confortables, funcionales y 
-equipados según  la especialidad. </p>
+                        <p>
+                            Mantener una atencion calida, humana y profesional
+                            dentro de instalaciones, consolidarnos como una
+                            marca genuina y expandirse hacia otras localidades
+                            Ser un centro de atención de vanguardia, espacios
+                            confortables, funcionales y equipados según la
+                            especialidad.{" "}
+                        </p>
                     </div>
                     <div>
                         <h2>Valores</h2>
-                        
+
                         <ul>
                             <li>Honestidad</li>
                             <li>Responsabilidad</li>
@@ -65,7 +67,6 @@ equipados según  la especialidad. </p>
                             <li>Sensibilidad</li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </>
