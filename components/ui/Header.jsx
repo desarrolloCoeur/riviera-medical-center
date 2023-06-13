@@ -10,13 +10,13 @@ const Header = () => {
                         <Image
                             src="/img/riviera-medical-center.png"
                             alt="Riviera Medical Center"
-                            width={150}
+                            width={120}
                             height={80}
                             className="main-logo"
                         />
                     </Link>
                 </div>
-                <div className="flex items-center gap-5 text-[#505050] uppercase text-xl font-semibold font-title">
+                <div className="flex items-center gap-5 text-[#505050] uppercase text-lg font-semibold font-title">
                     <Link href="/">Inicio</Link>
                     <Link href="/nosotros">Nosotros</Link>
                     <Link href="/servicios">Servicios</Link>
