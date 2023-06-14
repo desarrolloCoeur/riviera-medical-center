@@ -33,9 +33,9 @@ const page = ({ params: { slug } }) => {
                     className="mx-auto flex items-end mb-20 p-5 bg-cover bg-[#edf8ff]"
                     
                 >
-                    <div className="container mx-auto flex gap-5 w-full justify-center items-center">
+                    <div className="container mx-auto flex flex-col md:flex-row gap-5 w-full justify-center items-center">
                         <Image src={service.icon} alt={service.title} width={200} height={200} />
-                        <h1 className="text-7xl rounded-md p-3 uppercase text-[#FF9143] ">
+                        <h1 className="text-3xl md:text-5xl lg:text-7xl rounded-md p-3 uppercase text-[#FF9143] ">
                             {service.title}
                         </h1>
                     </div>
@@ -57,19 +57,19 @@ const page = ({ params: { slug } }) => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-wrap justify-around items-center w-full gap-5 md:flex-nowrap">
-                    <div  className="text-center min-w-1/4">
+                <div className="flex flex-wrap  gap-5 md:flex-nowrap my-10 justify-center">
+                    <div  className="text-center hidden md:block md:w-1/2 lg:w-1/4">
                         <Image
                             src={service.doctorimg}
                             alt={service.title}
                             width={350}
                             height={350}
-                            className="mx-auto"
+                            className="mx-auto mt-10"
                         />
                         <h2>{service.doctor}</h2>
                         <p>{service.title}</p>
                     </div>
-                    <div className="w-3/4 p-10">
+                    <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
                         <h2>Servicios</h2>
                         <ul>
                             <li>
@@ -95,8 +95,19 @@ const page = ({ params: { slug } }) => {
                             </li>
                         </ul>
                     </div>
+                    <div  className="text-center  md:hidden">
+                        <Image
+                            src={service.doctorimg}
+                            alt={service.title}
+                            width={350}
+                            height={350}
+                            className="mx-auto mt-10"
+                        />
+                        <h2>{service.doctor}</h2>
+                        <p>{service.title}</p>
+                    </div>
                 </div>
-                <div className="my-20">
+                <div className="my-10">
                     <h2>Acerca de / <span className="text-[#FF9143]">{service.doctor}</span></h2>
                     <p>
                         Naira Cisneros es una nutrióloga con una amplia

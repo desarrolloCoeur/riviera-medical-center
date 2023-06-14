@@ -6,7 +6,7 @@ const WhatsappButton = () => {
   return (
     <>
         <Link href="#">
-            <div className="fixed bottom-4 right-4 font-title rounded-md bg-[#FF9143] flex items-center gap-2 text-xl p-2 text-white "> WhatsApp <FaWhatsapp className='text-3xl'/></div>
+            <div className="fixed bottom-4 right-4 font-title rounded-full bg-[#25D366] flex items-center gap-2 text-xl p-2 text-white "> <FaWhatsapp className='text-5xl'/>  </div>
         </Link>
     </>
   )

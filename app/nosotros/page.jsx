@@ -10,7 +10,7 @@ const page = () => {
                 </div>
             </div>
             <div className="container w-11/12 mx-auto my-10">
-                <div className="flex items-center justify-center">
+                <div className="flex flex-wrap items-center justify-center">
                     <div className="w-full md:w-1/2">
                         <h1>Riviera Medical Center</h1>
                         <p>
@@ -26,7 +26,7 @@ const page = () => {
                             especializado.
                         </p>
                     </div>
-                    <div className="w-full md:w-1/2">
+                    <div className="w-full md:w-1/2 p-4">
                         <Image
                             src="/img/centro-medico.jpg"
                             alt="Centro Medico ubicado en Altavela"
@@ -35,7 +35,7 @@ const page = () => {
                         />
                     </div>
                 </div>
-                <div className="grid grid-cols-3 gap-5 my-10">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 justify-center">
                     <div>
                         <h2>Mision</h2>
                         <p>
