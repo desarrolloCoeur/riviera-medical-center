@@ -72,27 +72,11 @@ const page = ({ params: { slug } }) => {
                     <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
                         <h2>Servicios</h2>
                         <ul>
-                            <li>
-                                Evaluación del estado nutricio a nivel
-                                individual en las diferentes etapas de la vida,
-                                en individuos sanos o enfermos, considerando
-                                indicadores antropométricos, dietéticos,
-                                bioquímicos, clínicos, entre otros.
-                            </li>
-                            <li>
-                                Diagnósticos nutricionales encaminados a la
-                                identificación de problemáticas de alimentación
-                                y nutrición, así como para la evaluación de
-                                intervenciones en nutrición
-                            </li>
-                            <li>
-                                Plan de alimentación adecuado a los
-                                requerimientos y necesidades del paciente.
-                            </li>
-                            <li>
-                                Se pretende mejorar los hábitos alimenticios del
-                                paciente, para obtener una mejor calidad de vida
-                            </li>
+                            {service.services.map((service, i) => {
+                                return(
+                                    <li key={i} className="pb-3">{service}</li>
+                                )
+                            })}
                         </ul>
                     </div>
                     <div  className="text-center  md:hidden">
@@ -109,41 +93,13 @@ const page = ({ params: { slug } }) => {
                 </div>
                 <div className="my-10">
                     <h2>Acerca de / <span className="text-[#FF9143]">{service.doctor}</span></h2>
-                    <p>
-                        Naira Cisneros es una nutrióloga con una amplia
-                        formación académica. Obtuvo su licenciatura en Nutrición
-                        en la UNIVA y posteriormente se especializó en Nutrición
-                        y Dietética en la Universidad Mayor en Temuco, Chile.
-                    </p>
-                    <p>
-                        A lo largo de su carrera, Naira ha participado en
-                        diversos congresos y simposios relacionados con la salud
-                        y la nutrición. Algunos de los eventos en los que ha
-                        estado presente incluyen el Congreso Internacional de
-                        Ciencias de la Salud "La Salud Mental" en 2016, el CISU
-                        "Actualidades y Tópicos de Vanguardia" en 2017, el CISU
-                        "Desafíos en la salud integral del infante y
-                        adolescente" en 2018, y el CISU "Salud Digestiva" en
-                        2019.
-                    </p>
-                    <p>
-                        En el año 2020, Naira participó en el evento "ABCD de la
-                        obesidad" organizado por el IMSS y también en el tema de
-                        "Consulta Online y Covid" en la UNINUT. En 2021, asistió
-                        al Simposio de Nutrición Clínica Pediátrica y al
-                        Simposio de Nutrición en el Embarazo, ambos organizados
-                        por la FNNC.
-                    </p>
-                    <p>
-                        Con una sólida formación y una amplia experiencia en
-                        nutrición, Naira Cisneros se dedica a proporcionar
-                        servicios de consulta y asesoramiento nutricional,
-                        brindando apoyo en temas relacionados con la
-                        alimentación y la salud en diferentes etapas de la vida,
-                        incluyendo infantes, adolescentes, embarazadas y
-                        pacientes con condiciones específicas como el síndrome
-                        de ovario poliquístico.
-                    </p>
+                    {
+                        service.about.map((about,i) => {
+                            return(
+                                <p key={i} className="pb-3"> {about} </p>
+                            )
+                        })
+                    }
                 </div>
             </div>
         </>
