@@ -19,11 +19,11 @@ const Header = () => {
                 <div>
                     <Link href="/">
                         <Image
-                            src="/img/riviera-medical-center.png"
+                            src="/img/riviera-medical-horizontal.png"
                             alt="Riviera Medical Center"
-                            width={145}
-                            height={80}
-                            className="main-logo"
+                            width={225}
+                            height={90}
+                            className="main-logo my-1"
                         />
                     </Link>
                 </div>
