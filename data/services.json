@@ -17,28 +17,92 @@
         "imghero": "/img/nutriologia-hero.jpg",
         "icon": "/img/icons/nutriologia.png"
     },
+
+
     {
-        "title": "Psicologia",
+        "title": "Psicología",
         "slug": "psicologia",
-        "img": "/img/psicologia.webp"
+        "doctor": "Carolina Sánchez",
+        "doctorimg": "/img/doctor-1.png",
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de psicología liderado por la destacada psicóloga Carolina Sánchez. Con su licenciatura en Psicología y amplia experiencia en el campo, la Dra. Sánchez se especializa en brindar atención personalizada y experta en salud mental y emocional. Si estás enfrentando dificultades emocionales, trastornos del estado de ánimo, problemas de ansiedad, estrés o simplemente necesitas apoyo psicológico para afrontar los desafíos de la vida, la Dra. Sánchez está aquí para ayudarte.",
+        "services": [
+            "Evaluaciones psicológicas para identificar y diagnosticar problemas de salud mental, trastornos emocionales o dificultades en el funcionamiento psicológico de la persona.",
+            "Terapia individual para brindar apoyo emocional, ayudar a desarrollar habilidades de afrontamiento saludables, explorar patrones de pensamiento y comportamiento, y promover el crecimiento personal y el bienestar.",
+            "Terapia de pareja para ayudar a las parejas a resolver conflictos, mejorar la comunicación, fortalecer la relación y trabajar en áreas problemáticas o desafiantes en su vida en pareja.",
+            "Terapia familiar para abordar problemas familiares, conflictos interpersonales y mejorar la dinámica familiar."
+        ],
+        "about" : ["Carolina Sánchez es una especialista en Psicología con una sólida formación académica y una amplia experiencia en el campo. Obtuvo su Licenciatura en Psicología en la Universidad Nacional Autónoma de México (UNAM), adquiriendo los conocimientos y las habilidades necesarias para brindar una atención de calidad a sus pacientes.","Además ha participado en cursos y capacitaciones especializadas que han enriquecido su formación en el ámbito de la psicología. Entre estos se incluyen talleres de terapia cognitivo-conductual, cursos de terapia de pareja y capacitaciones en técnicas de intervención en crisis. Asimismo, ha obtenido certificaciones en técnicas de relajación y manejo del estrés, lo que le permite proporcionar herramientas y estrategias efectivas a sus pacientes para lidiar con situaciones de tensión emocional. ","En nuestro Centro Médico de Especialistas, La Dra. Sánchez está disponible para ofrecer servicios de consulta y tratamiento en psicología. Su amplio conocimiento en el campo de la psicología y su compromiso con el bienestar de sus pacientes la convierten en una opción confiable para aquellos que buscan mejorar su salud mental y emocional."],
+        "img": "/img/psicologia.webp",
+        "imgservice": "/img/psicologia2.webp",
+        "imghero": "/img/hero-2.jpg",
+        "icon": "/img/icons/psicologia.png"
     },
+
+
     {
-        "title": "Terapia Fisica",
+        "title": "Terapia Física",
         "slug": "terapia-fisica",
-        "img": "/img/terapia-fisica.webp"
+        "doctor": "Maria Guadalupe Peña Meza",
+        "doctorimg": "/img/doctor-1.png",
+        
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de terapia física liderado por la destacada doctora Maria Guadalupe Peña Meza. La Dra. es una profesional altamente cualificada en el campo de la fisioterapia, habiendo obtenido su Licenciatura en Fisioterapia en la prestigiosa Universidad Vizcaya de las Américas. Su profundo conocimiento y amplia experiencia en este ámbito la han convertido en una experta en el cuidado y mejora de diversas necesidades y condiciones médicas. En nuestro Centro Médico de Especialistas, nos comprometemos a proporcionar servicios de terapia física de la más alta calidad, respaldados por instalaciones modernas y equipos especializados.",
+        "services": [
+            "Realización de evaluación exhaustiva de la condición física del paciente, incluyendo la historia clínica, pruebas físicas y evaluación de la movilidad, fuerza, flexibilidad y función física.",
+            "Tratamiento de afecciones crónicas, como artritis, enfermedades neuromusculares, dolor crónico o enfermedades respiratorias. Utilizan técnicas y modalidades específicas para aliviar el dolor, mejorar la movilidad y la función, y ayudar a los pacientes a manejar y controlar su condición a largo plazo.",
+            "Mejora del rendimiento deportivo, trabajamos con atletas y personas activas para mejorar su rendimiento deportivo para optimizar la fuerza, la resistencia, la flexibilidad y la técnica, ayudando a prevenir lesiones y maximizar el rendimiento atlético.",
+            "Ofrecen orientación sobre ejercicios adecuados, ergonomía, postura correcta y técnicas de prevención de lesiones para ayudar a los pacientes a mantener una buena salud física y evitar futuros problemas. "
+        ],
+        "about" : ["Maria Guadalupe Peña Meza es una especialista en Terapia Física con una sólida formación académica y una amplia experiencia en el campo. Obtuvo su Licenciatura en Fisioterapia en la Universidad Vizcaya de las Américas en 2019, donde adquirió los conocimientos y las habilidades necesarias para brindar una atención de calidad a sus pacientes.","La Licenciada ha participado en numerosos cursos y talleres especializados que han fortalecido su capacitación en el área de la fisioterapia. Entre estos se encuentran el Curso Taller Soporte Vital, el Curso Vendaje Funcional Elástico y Neuromuscular y la Certificación en Terapia Manual Instrumentalizada: Richelli's Pain Reliever and 3D Thumb Method.  Además, ha obtenido certificaciones en Tape Neuromuscular Nivel Básico y Tape Neuromuscular Nivel Avanzado, lo que le permite utilizar técnicas de vendaje neuromuscular para el alivio del dolor y la mejora del rendimiento físico.","En nuestro Centro Médico de Especialistas, la Dra. María Guadalupe Peña Meza está disponible para ofrecer servicios de consulta y tratamiento en fisioterapia. Su amplio conocimiento en el campo de la terapia física y su dedicación a la salud y el bienestar de sus pacientes la convierten en una opción confiable para aquellos que buscan mejorar su calidad de vida a través de la fisioterapia."],
+        
+        "img": "/img/terapia-fisica.webp",
+        "imgservice": "/img/terapia-fisica2.jpg",
+        "imghero": "/img/hero-2.jpg",
+        "icon": "/img/icons/terapia-fisica.png"
     },
+
+
     {
         "title": "Medicina General",
         "slug": "medicina-general",
-        "img": "/img/medicina-general.webp"
+        "doctor": "Juan Garcia",
+        "doctorimg": "/img/doctor-2.png",
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de medicina general liderado por el destacado doctor Juan García. Con su licenciatura en Medicina y amplia experiencia en el campo, el Dr. García se especializa en brindar una atención médica integral y de calidad a pacientes de todas las edades. Ya sea que necesites una consulta de rutina, atención para enfermedades comunes o manejo de condiciones crónicas, el Dr. García está aquí para cuidar de tu salud general. Su enfoque se centra en el bienestar integral de sus pacientes, abordando no solo los síntomas y enfermedades actuales, sino también la prevención y promoción de la salud a largo plazo.",
+        "services": [
+            "Realización de exámenes físicos regulares y revisar el estado general de salud de los pacientes. Estas consultas pueden incluir la toma de signos vitales, la revisión de la historia médica, la realización de pruebas de laboratorio y la discusión de cualquier inquietud o síntoma que el paciente pueda tener.",
+            "Capacitado para diagnosticar y tratar una amplia variedad de enfermedades y afecciones comunes, como resfriados, gripe, infecciones respiratorias, infecciones urinarias, enfermedades gastrointestinales, alergias, dolores de cabeza, entre otras.",
+            "Prevención de enfermedades y en la promoción de un estilo de vida saludable. Pueden proporcionar orientación sobre la dieta, el ejercicio, la vacunación, la detección temprana de enfermedades y la realización de exámenes de detección periódicos.",
+            "Proporcionar seguimiento y atención a largo plazo para garantizar la continuidad de la atención médica. Esto implica realizar visitas de seguimiento, monitorear la respuesta al tratamiento y realizar ajustes necesarios en el plan de atención según sea necesario."
+        ],
+        "about" : ["El Dr. Juan García es un médico general altamente capacitado con una sólida formación académica y una amplia experiencia en el campo de la medicina. Obtuvo su licenciatura en Medicina en una reconocida universidad, donde adquirió los conocimientos y las habilidades necesarias para brindar una atención médica integral y de calidad.","Dr. García ha mantenido su formación actualizada a través de la participación en cursos y programas de educación continua. Ha asistido a talleres especializados y ha obtenido certificaciones en áreas relevantes de la medicina general, lo que le permite brindar un enfoque integral en la atención de sus pacientes.","Confía en el conocimiento y la experiencia del Dr. Juan García para cuidar de tu salud y bienestar. En nuestro Centro Médico de Especialistas, recibirás una atención médica personalizada y de calidad, donde tu salud y bienestar son nuestra principal prioridad. No dudes en programar una cita con el Dr. García y confía en su experiencia para brindarte una atención médica integral y enfocada en tus necesidades individuales."],
+        "img": "/img/medicina-general.webp",
+        "imgservice": "/img/medicina-general2.jpg",
+        "imghero": "/img/hero-2.jpg",
+        "icon": "/img/icons/medicina-general.png"
     },
+
+
     {
-        "title": "Odontologia",
+        "title": "Odontología",
         "slug": "odontologia",
-        "img": "/img/odontologia.webp"
+        "doctor": "Ana Torres",
+        "doctorimg": "/img/doctor-1.png",
+        "description": "En nuestro Centro Odontológico Especializado en el fraccionamiento Altavela, Nayarit, contamos con el servicio de odontología liderado por la destacada Dra. Ana Torres. Con su licenciatura en Odontología y amplia experiencia en el campo, la Dra. Torres se especializa en brindar una atención dental integral y de calidad a pacientes de todas las edades. Ya sea que necesites una consulta de rutina, atención para problemas dentales comunes o tratamientos especializados, la Dra. Torres está aquí para cuidar de tu salud bucal. Su enfoque se centra en el bienestar dental integral de sus pacientes, abordando no solo los problemas dentales actuales, sino también la prevención y promoción de una buena salud bucal a largo plazo.",
+        "services": [
+            "Realización de exámenes bucales completos, revisa la salud de tus dientes y encías, y realiza limpiezas dentales profesionales para mantener tu boca sana y prevenir enfermedades dentales.",
+            "Obturaciones dentales (empastes) para tratar las caries y restaurar la estructura dental dañada, devolviendo la funcionalidad y la estética a tus dientes.",
+            "Ofrece servicios de blanqueamiento dental, carillas dentales y restauraciones estéticas para mejorar la apariencia de tus dientes y lograr una sonrisa más radiante.",
+            "Brinda atención especializada en el tratamiento de enfermedades de las encías, como la gingivitis y la periodontitis, para mantener tus encías saludables y prevenir la pérdida dental."
+        ],
+        "about" : ["Ana Torres es una especialista en Odontología con una sólida formación académica y una amplia experiencia en el campo. Obtuvo su Licenciatura en Odontología en la Universidad, donde adquirió los conocimientos y las habilidades necesarias para brindar una atención dental de calidad a sus pacientes.","La Dra. Torres ha participado en numerosos cursos y talleres especializados que han fortalecido su capacitación en el área de la odontología. Entre estos se encuentran cursos de actualización en restauraciones dentales, endodoncia y periodoncia. Además, ha obtenido certificaciones en técnicas de blanqueamiento dental y estética dental avanzada, lo que le permite brindar tratamientos estéticos de alta calidad y mejorar la apariencia dental de sus pacientes.","En nuestro Centro Odontológico de Especialistas, la Dra. Ana Torres está disponible para ofrecer servicios de consulta y tratamiento en odontología. Su amplio conocimiento en el campo de la odontología y su dedicación a la salud y el bienestar dental de sus pacientes la convierten en una opción confiable para aquellos que buscan mejorar su salud bucal y lograr una sonrisa saludable y hermosa."],
+        "img": "/img/odontologia.webp",
+        "imgservice": "/img/odontologia2.jpg",
+        "imghero": "/img/hero-2.jpg",
+        "icon": "/img/icons/odontologia.png"
     },
+
+
     {
-        "title": "Cosmetologia",
+        "title": "Cosmetología",
         "slug": "cosmetologia",
 
         "doctor": "Xóchitl Elena Gámez Velázquez",
@@ -50,12 +114,12 @@
             "Servicios de drenaje linfático, que es una técnica de masaje suave que ayuda a estimular el sistema linfático y a eliminar toxinas y líquidos acumulados en el cuerpo. ",
             "Servicio de mesoterapia corporal, puede utilizarse para reducir la celulitis, mejorar la apariencia de la piel y promover la pérdida de grasa localizada."
         ],
-        "about" : ["Naira Cisneros es una nutrióloga con una amplia formación académica. Obtuvo su licenciatura en Nutrición en la UNIVA y posteriormente se especializó en Nutrición y Dietética en la Universidad Mayor en Temuco, Chile.","A lo largo de su carrera, Naira ha participado en diversos congresos y simposios relacionados con la salud y la nutrición. Algunos de los eventos en los que ha estado presente incluyen el Congreso Internacional de Ciencias de la Salud 'La Salud Mental' en 2016, el CISU 'Actualidades y Tópicos de Vanguardia' en 2017, el CISU 'Desafíos en la salud integral del infante y adolescente' en 2018, y el CISU 'Salud Digestiva' en 2019.","En el año 2020, Naira participó en el evento 'ABCD de la obesidad' organizado por el IMSS y también en el tema de 'Consulta Online y Covid' en la UNINUT. En 2021, asistió al Simposio de Nutrición Clínica Pediátrica y al Simposio de Nutrición en el Embarazo, ambos organizados por la FNNC.","Con una sólida formación y una amplia experiencia en nutrición, Naira Cisneros se dedica a proporcionar servicios de consulta y asesoramiento nutricional, brindando apoyo en temas relacionados con la alimentación y la salud en diferentes etapas de la vida, incluyendo infantes, adolescentes, embarazadas y pacientes con condiciones específicas como el síndrome de ovario poliquístico."],
+        "about" : ["Xóchitl Elena Gámez Velázquez es una cosmetóloga con una amplia formación académica. Obtuvo su licenciatura en Cosmetología en el Colegio Mexicano de Estudios Integrales para la Salud S.C Tepic Nayarit. y posteriormente obtuvo el Diplomado en Cosmetología facial y Diplomado de Cosmiatria en COMEIN.","A lo largo de su carrera, Xóchilt ha participado en diversos congresos y simposios relacionados con la salud y la cosmetología. Algunos de las capacitaciones en las que ha estado presente incluyen mesoterapia corporal y aparatología corporal y capacitación especializada en Drenaje linfático.","Xóchitl Elena Gámez Velázquez se dedica a proporcionar servicios de consulta y asesoramiento cosmetológico, brindando apoyo en temas relacionados con la cosmetología facial y la salud."],
         
 
         "img": "/img/cosmetologia.webp",
         "imgservice": "/img/cosmetologia2.jpg",
-        "imghero": "/img/nutriologia-hero.jpg",
+        "imghero": "/img/hero-2.jpg",
         "icon": "/img/icons/cosmetologia.png"
     }
 ]
