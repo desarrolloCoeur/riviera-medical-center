@@ -1,3 +1,5 @@
+import { FaPhone, FaEnvelope, FaLocationArrow } from "react-icons/fa";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,12 +11,12 @@ const Footer = () => {
                     <div className="w-full md:w-1/2 lg:w-1/3">
                         <h2  className="text-[#00b5bd]">Contactanos</h2>
                         <div className="flex flex-col">
-                            <Link href="#">
-                                Océano Antártico 930, Fraccionamiento Altavela,
+                            <Link href="https://www.google.com/maps?ll=20.744597,-105.278578&z=11&t=m&hl=es&gl=MX&mapclient=embed&cid=7930445912232107886" className="flex items-center justify-start gap-4">
+                                <FaLocationArrow/> Océano Antártico 930, Fraccionamiento Altavela,
                                 63735 Nay.
                             </Link>
-                            <Link href="#">322 192 1554</Link>
-                            <Link href="#">hola@rivieramedicalcenter.com</Link>
+                            <Link href="tel:+5213221921554" className="flex items-center justify-start gap-4"><FaPhone/> 322 192 1554</Link>
+                            <Link href="mailto:hola@rivieramedicalcenter.com" className="flex items-center justify-start gap-4"><FaEnvelope/> hola@rivieramedicalcenter.com</Link>
                         </div>
                     </div>
                     <div className="w-full  md:w-1/2 lg:w-2/3">
@@ -47,33 +49,33 @@ const Footer = () => {
                     <div className="">
                         <h3 className="text-[#00b5bd]">Nosotros</h3>
                         <div className="flex gap-2 flex-col">
-                            <Link href="#">Contacto</Link>
+                            <Link href="/#contacto">Contacto</Link>
                             <Link href="#">FAQ</Link>
-                            <Link href="#">Hacer cita</Link>
-                            <Link href="#">Enviar WhatsApp</Link>
-                            <Link href="#">Llamar Ahora</Link>
+                            <Link href="https://wa.me/5213221921554">Hacer cita</Link>
+                            <Link href="https://wa.me/5213221921554">Enviar WhatsApp</Link>
+                            <Link href="tel:+5213221921554">Llamar Ahora</Link>
                         </div>
                     </div>
                     <div className="">
                         <h3 className="text-[#00b5bd]">Servicios</h3>
                         <div className="flex gap-2 flex-col">
-                            <Link href="#">Terapia Fisica</Link>
-                            <Link href="#">Cosmetologia</Link>
-                            <Link href="#">Nutricion</Link>
-                            <Link href="#">Psicologia</Link>
-                            <Link href="#">Medicina General</Link>
-                            <Link href="#">Odontologia</Link>
+                            <Link href="/servicios/terapia-fisica">Terapia Fisica</Link>
+                            <Link href="/servicios/cosmetologia">Cosmetologia</Link>
+                            <Link href="/servicios/nutriologia">Nutricion</Link>
+                            <Link href="/servicios/psicologia">Psicologia</Link>
+                            <Link href="/servicios/medicina-general">Medicina General</Link>
+                            <Link href="/servicios/odontologia">Odontologia</Link>
                         </div>
                     </div>
                     <div className="">
                         <h3 className="text-[#00b5bd]">Contactanos</h3>
                         <div className="flex flex-col">
-                            <Link href="#">
+                            <Link href="https://www.google.com/maps?ll=20.744597,-105.278578&z=11&t=m&hl=es&gl=MX&mapclient=embed&cid=7930445912232107886" className="flex items-center justify-start gap-4"><FaLocationArrow/>
                                 Océano Antártico 930, Fraccionamiento Altavela,
                                 63735 Nay.
                             </Link>
-                            <Link href="#">322 192 1554</Link>
-                            <Link href="#">hola@rivieramedicalcenter.com</Link>
+                            <Link href="tel:+5213221921554" className="flex items-center justify-start gap-4"><FaPhone/> 322 192 1554</Link>
+                            <Link href="mailto:hola@rivieramedicalcenter.com" className="flex items-center justify-start gap-4"><FaEnvelope/> hola@rivieramedicalcenter.com</Link>
                         </div>
                     </div>
                 </div>

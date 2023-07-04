@@ -32,7 +32,7 @@ const Header = () => {
                     <Link href="/nosotros">Nosotros</Link>
                     <Link href="/servicios">Servicios</Link>
                     <Link href="/#contacto">Contacto</Link>
-                    <Link href="#" className="p-2 bg-[#00B5BD] rounded-md text-[#EDF8FF]">Hacer Cita!</Link>
+                    <Link href="https://wa.me/5213221921554" className="p-2 bg-[#00B5BD] rounded-md text-[#EDF8FF]">Hacer Cita!</Link>
                 </div>
                 <div className="text-xl md:hidden">
                     <button onClick={toggleMenu}>
