@@ -50,7 +50,6 @@ const Footer = () => {
                         <h3 className="text-[#00b5bd]">Nosotros</h3>
                         <div className="flex gap-2 flex-col">
                             <Link href="/#contacto">Contacto</Link>
-                            <Link href="#">FAQ</Link>
                             <Link href="https://wa.me/5213221921554">Hacer cita</Link>
                             <Link href="https://wa.me/5213221921554">Enviar WhatsApp</Link>
                             <Link href="tel:+5213221921554">Llamar Ahora</Link>
