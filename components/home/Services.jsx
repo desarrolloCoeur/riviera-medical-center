@@ -17,7 +17,7 @@ const Services = () => {
                     en nosotros para recibir el mejor cuidado médico
                     especializado.
                 </p>
-                <Link href="#" className="btn-primary">Mas Acerca de Nostros</Link>
+                <Link href="/nosotros" className="btn-primary">Mas Acerca de Nostros</Link>
             </div>
             <div className="w-full md:w-2/3 bg-[#edf8ff] flex flex-col items-center gap-5 rounded-md py-8">
                 <h2>Nuestro Servicios</h2>

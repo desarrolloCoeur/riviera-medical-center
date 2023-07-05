@@ -40,7 +40,7 @@ const Team = () => {
                     <p>Nutriologa</p>
                 </div>
             </div>
-            <Link href="#" className="btn-primary">Nuestro Servicios</Link>
+            <Link href="/servicios" className="btn-primary">Nuestro Servicios</Link>
         </div>
     );
 };

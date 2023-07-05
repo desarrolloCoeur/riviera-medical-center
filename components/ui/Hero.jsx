@@ -8,7 +8,7 @@ const Hero = () => {
         
         <div className='container w-11/12 mx-auto -mt-64'>
             <h1 className=' text-3xl lg:text-5xl mb-10'>Soluciones para el bienestar de calidad, <br/> con profesionales comprometidos</h1>
-            <Link href="#" className='btn-primary text-xl'>Reservar Cita</Link>
+            <Link href="https://wa.me/5213221921554" className='btn-primary text-xl'>Reservar Cita</Link>
         </div>
     </div>
   )
