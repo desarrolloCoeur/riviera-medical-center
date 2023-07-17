@@ -101,7 +101,59 @@ const page = ({ params: { slug } }) => {
                         })
                     }
                 </div>
+            {
+                slug === "psicologia" ? (
+                <>
+                    <div className="flex flex-wrap  gap-5 md:flex-nowrap my-10 justify-center">
+
+                        <div  className="text-center hidden md:block md:w-1/2 lg:w-1/4">
+                            <Image
+                                src={service.doctorimg2}
+                                alt={service.title}
+                                width={350}
+                                height={350}
+                                className="mx-auto mt-10"
+                                />
+                            <h2>{service.doctor2}</h2>
+                            <p>{service.title}</p>
+                        </div>
+                        <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
+                            <h2>Servicios</h2>
+                            <ul>
+                                {service.services2.map((service, i) => {
+                                    return(
+                                        <li key={i} className="pb-3">{service}</li>
+                                        )
+                                    })}
+                            </ul>
+                        </div>
+                        <div  className="text-center  md:hidden">
+                            <Image
+                                src={service.doctorimg2}
+                                alt={service.title}
+                                width={350}
+                                height={350}
+                                className="mx-auto mt-10"
+                                />
+                            <h2>{service.doctor2}</h2>
+                            <p>{service.title}</p>
+                        </div>
+                    </div>
+                    <div className="my-10">
+                        <h2>Acerca de / <span className="text-[#FF9143]">{service.doctor2}</span></h2>
+                        {
+                            service.about2.map((about,i) => {
+                                return(
+                                    <p key={i} className="pb-3"> {about} </p>
+                                    )
+                                })
+                            }
+                    </div>
+                
+                </>    
+                ) : null }
             </div>
+            
         </>
     );
 };
