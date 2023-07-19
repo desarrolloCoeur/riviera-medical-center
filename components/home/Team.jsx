@@ -14,18 +14,18 @@ const Team = () => {
                         height={350}
                         className="mx-auto"
                     />
-                    <h3>Xochitl Elena</h3>
+                    <h3>Xóchitl Gámez</h3>
                     <p>Cosmetologa</p>
                 </div>
                 <div>
                 <Image
-                        src="/img/doctor-2.png"
+                        src="/img/doctor-1.png"
                         alt="doctor"
                         width={350}
                         height={350}
                         className="mx-auto"
                     />
-                    <h3>Juan Ramos</h3>
+                    <h3>Maria Guadalupe Peña Meza</h3>
                     <p>Fisioterapeuta</p>
                 </div>
                 <div>
