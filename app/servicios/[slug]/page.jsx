@@ -117,7 +117,7 @@ const page = ({ params: { slug } }) => {
                             <h2>{service.doctor2}</h2>
                             <p>{service.title}</p>
                         </div>
-                        <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
+                        {/* <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
                             <h2>Servicios</h2>
                             <ul>
                                 {service.services2.map((service, i) => {
@@ -126,7 +126,7 @@ const page = ({ params: { slug } }) => {
                                         )
                                     })}
                             </ul>
-                        </div>
+                        </div> */}
                         <div  className="text-center  md:hidden">
                             <Image
                                 src={service.doctorimg2}
