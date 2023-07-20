@@ -57,7 +57,7 @@ const page = ({ params: { slug } }) => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-wrap  gap-5 md:flex-nowrap my-10 justify-center">
+                <div className={`flex flex-wrap  gap-5 md:flex-nowrap my-10 justify-center ${slug === "psicologia" ? "hidden" : null}`}>
                     <div  className="text-center hidden md:block md:w-1/2 lg:w-1/4">
                         <Image
                             src={service.doctorimg}
@@ -69,7 +69,7 @@ const page = ({ params: { slug } }) => {
                         <h2>{service.doctor}</h2>
                         <p>{service.title}</p>
                     </div>
-                    <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
+                    <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4" id="servicios">
                         <h2>Servicios</h2>
                         <ul>
                             {service.services.map((service, i) => {
@@ -91,7 +91,7 @@ const page = ({ params: { slug } }) => {
                         <p>{service.title}</p>
                     </div>
                 </div>
-                <div className="my-10">
+                <div className={`my-10 ${slug === "psicologia" ? "hidden" : null }`}>
                     <h2>Acerca de / <span className="text-[#FF9143]">{service.doctor}</span></h2>
                     {
                         service.about.map((about,i) => {
@@ -104,52 +104,64 @@ const page = ({ params: { slug } }) => {
             {
                 slug === "psicologia" ? (
                 <>
+                    <div className=" mt-10 md:w-1/2" id="servicios">
+                        <h2>Servicios</h2>
+                        <ul>
+                            {service.services.map((service, i) => {
+                                return(
+                                    <li key={i} className="pb-3">{service}</li>
+                                )
+                            })}
+                        </ul>
+                    </div>
                     <div className="flex flex-wrap  gap-5 md:flex-nowrap my-10 justify-center">
 
-                        <div  className="text-center hidden md:block md:w-1/2 lg:w-1/4">
+                        <div  className="text-center md:w-1/2 lg:w-1/4">
                             <Image
-                                src={service.doctorimg2}
+                                src={service.doctorimg}
                                 alt={service.title}
                                 width={350}
                                 height={350}
                                 className="mx-auto mt-10"
                                 />
-                            <h2>{service.doctor2}</h2>
+                            <h2>{service.doctor}</h2>
                             <p>{service.title}</p>
                         </div>
-                        {/* <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
-                            <h2>Servicios</h2>
-                            <ul>
-                                {service.services2.map((service, i) => {
-                                    return(
-                                        <li key={i} className="pb-3">{service}</li>
-                                        )
-                                    })}
-                            </ul>
-                        </div> */}
-                        <div  className="text-center  md:hidden">
-                            <Image
-                                src={service.doctorimg2}
-                                alt={service.title}
-                                width={350}
-                                height={350}
-                                className="mx-auto mt-10"
-                                />
-                            <h2>{service.doctor2}</h2>
-                            <p>{service.title}</p>
+                        <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
+                            <h2>Acerca de / <span className="text-[#FF9143]">{service.doctor}</span></h2>
+                            {
+                            service.about.map((about,i) => {
+                                return(
+                                    <p key={i} className="pb-3"> {about} </p>
+                                    )
+                                })
+                            }
                         </div>
                     </div>
-                    <div className="my-10">
-                        <h2>Acerca de / <span className="text-[#FF9143]">{service.doctor2}</span></h2>
-                        {
+                    <div className="flex flex-wrap  gap-5 md:flex-nowrap my-10 justify-center">
+
+                        <div  className="text-center md:w-1/2 lg:w-1/4">
+                            <Image
+                                src={service.doctorimg2}
+                                alt={service.title}
+                                width={350}
+                                height={350}
+                                className="mx-auto mt-10"
+                                />
+                            <h2>{service.doctor2}</h2>
+                            <p>{service.title}</p>
+                        </div>
+                        <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
+                            <h2>Acerca de / <span className="text-[#FF9143]">{service.doctor2}</span></h2>
+                            {
                             service.about2.map((about,i) => {
                                 return(
                                     <p key={i} className="pb-3"> {about} </p>
                                     )
                                 })
                             }
+                        </div>
                     </div>
-                
                 </>    
                 ) : null }
             </div>

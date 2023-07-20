@@ -11,7 +11,7 @@ const page = () => {
         data.map((service, i) => {
           return(
             <div key={i} className='flex justify-center items-center' >
-                <Link href={`/servicios/${service.slug}`}>
+                <Link href={`/servicios/${service.slug}#servicios`}>
                 <Image src={service.img} alt={service.title} width={500} height={400} className='h-72 object-cover rounded-md mb-3' />
                 <h2 className='btn-primary w-fit mx-auto'>{service.title}</h2>
               </Link>

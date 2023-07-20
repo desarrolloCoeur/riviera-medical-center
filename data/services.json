@@ -4,7 +4,7 @@
         "slug": "nutriologia",
         "doctor": "Naira Cisneros",
         "doctorimg": "/img/doctor-1.png",
-        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de nutrición liderado por Naira Cisneros. Con su licenciatura en Nutrición y amplia experiencia en el campo, la Licenciada Cisneros se especializa en brindar atención personalizada y experta en nutrición. Si tu meta es perder peso, mejorar tu salud digestiva, manejar condiciones específicas o simplemente adoptar hábitos alimentarios más saludables, la Lic. Cisneros te proporcionará un plan nutricional adaptado a tus necesidades individuales. Con su enfoque centrado en la salud integral, recibirás el apoyo necesario para alcanzar tus objetivos y disfrutar de una vida más saludable. Confía en el conocimiento y la experiencia de la Lic. Naira Cisneros para cuidar de tu nutrición y bienestar.",
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de nutrición liderado por la destacada licenciada Naira Cisneros. Con su licenciatura en Nutrición y amplia experiencia en el campo, la Licenciada Cisneros se especializa en brindar atención personalizada y experta en nutrición. Si tu meta es perder peso, mejorar tu salud digestiva, manejar condiciones específicas o simplemente adoptar hábitos alimentarios más saludables, la Lic. Cisneros te proporcionará un plan nutricional adaptado a tus necesidades individuales. Con su enfoque centrado en la salud integral, recibirás el apoyo necesario para alcanzar tus objetivos y disfrutar de una vida más saludable. Confía en el conocimiento y la experiencia de la Lic. Naira Cisneros para cuidar de tu nutrición y bienestar.",
         "services": [
             "Evaluación del estado nutricio a nivel individual en las diferentes etapas de la vida, en individuos sanos o enfermos, considerando indicadores antropométricos, dietéticos, bioquímicos, clínicos, entre otros.",
             "Diagnósticos nutricionales encaminados a la identificación de problemáticas de alimentación y nutrición, así como para la evaluación de intervenciones en nutrición.",
@@ -30,14 +30,23 @@
         "doctor2" : "Hans Meza",
         "doctorimg": "/img/doctor-1.png",
         "doctorimg2": "/img/doctor-2.png",
-        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de psicología liderado por Esther Tostado y Hans Meza. Con sus licenciaturas en Psicología y amplia experiencia en el campo, se especializan en brindar atención personalizada y experta en salud mental y emocional. Si estás enfrentando dificultades emocionales, trastornos del estado de ánimo, problemas de ansiedad, estrés o simplemente necesitas apoyo psicológico para afrontar los desafíos de la vida, están aquí para ayudarte.",
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de psicología liderado por los destados psicologos Esther y Hans Con su licenciatura en Psicología y amplia experiencia en el campo, Esther y Hans se especializa en brindar atención personalizada y experta en salud mental y emocional. Si estás enfrentando dificultades emocionales, trastornos del estado de ánimo, problemas de ansiedad, estrés o simplemente necesitas apoyo psicológico para afrontar los desafíos de la vida, los Lic. Esther y Hans están aquí para ayudarte.",
         "services": [
             "Evaluaciones psicológicas para identificar y diagnosticar problemas de salud mental, trastornos emocionales o dificultades en el funcionamiento psicológico de la persona.",
             "Terapia individual para brindar apoyo emocional, ayudar a desarrollar habilidades de afrontamiento saludables, explorar patrones de pensamiento y comportamiento, y promover el crecimiento personal y el bienestar.",
-            "Terapia de pareja para ayudar a las parejas a resolver conflictos, mejorar la comunicación, fortalecer la relación y trabajar en áreas problemáticas o desafiantes en su vida en pareja."
+            "Terapia de pareja para ayudar a las parejas a resolver conflictos, mejorar la comunicación, fortalecer la relación y trabajar en áreas problemáticas o desafiantes en su vida en pareja.",
+            "Terapia familiar para abordar problemas familiares, conflictos interpersonales y mejorar la dinámica familiar."
+        ],
+        "services2": [
+            "Evaluaciones psicológicas para identificar y diagnosticar problemas de salud mental, trastornos emocionales o dificultades en el funcionamiento psicológico de la persona.",
+            "Terapia individual para brindar apoyo emocional, ayudar a desarrollar habilidades de afrontamiento saludables, explorar patrones de pensamiento y comportamiento, y promover el crecimiento personal y el bienestar.",
+            "Terapia de pareja para ayudar a las parejas a resolver conflictos, mejorar la comunicación, fortalecer la relación y trabajar en áreas problemáticas o desafiantes en su vida en pareja.",
+            "Terapia familiar para abordar problemas familiares, conflictos interpersonales y mejorar la dinámica familiar."
         ],
         "about": [
             "Psicoterapeuta",
+            "Psicoterapia humanista", 
+            "Maestra en psicoterapia Gestalt",
             "Coach de Crianza",
             "Certificación en en evaluación neuropsicológica",
             "Especialidad en psicoterapia de pareja.",
@@ -63,7 +72,7 @@
         "doctor": "Maria Guadalupe Peña Meza",
         "doctorimg": "/img/doctor-1.png",
 
-        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de terapia física liderado por Maria Guadalupe Peña Meza. La Lic. es una profesional altamente cualificada en el campo de la fisioterapia, habiendo obtenido su Licenciatura en Fisioterapia en la prestigiosa Universidad Vizcaya de las Américas. Su profundo conocimiento y amplia experiencia en este ámbito la han convertido en una experta en el cuidado y mejora de diversas necesidades y condiciones médicas. En nuestro Centro Médico de Especialistas, nos comprometemos a proporcionar servicios de terapia física de la más alta calidad, respaldados por instalaciones modernas y equipos especializados.",
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de terapia física liderado por la destacada licenciada Maria Guadalupe Peña Meza. La Lic. es una profesional altamente cualificada en el campo de la fisioterapia, habiendo obtenido su Licenciatura en Fisioterapia en la prestigiosa Universidad Vizcaya de las Américas. Su profundo conocimiento y amplia experiencia en este ámbito la han convertido en una experta en el cuidado y mejora de diversas necesidades y condiciones médicas. En nuestro Centro Médico de Especialistas, nos comprometemos a proporcionar servicios de terapia física de la más alta calidad, respaldados por instalaciones modernas y equipos especializados.",
         "services": [
             "Evaluación de la condición física, rangos de movilidad, flexibilidad y fuerza del paciente mediante diversas técnicas y pruebas para diagnosticar problemas y elaborar un plan de tratamiento personalizado en el cual se implementarán terapias manuales, programas de ejercicio terapéutico, electroterapia, ultrasonido terapéutico, vendaje neuromuscular, programa de ejercicio en casa, para así lograr apoyar a los pacientes a incorporarse a las actividades de la vida diaria.",
             "Manejo del dolor crónico Abordaje terapéutico para niños, bebes, mujeres embarazadas, adultos mayores, deportistas, entre otros.",
@@ -91,7 +100,7 @@
         "slug": "medicina-general",
         "doctor": "Juan Garcia",
         "doctorimg": "/img/doctor-2.png",
-        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de medicina general liderado por Juan García. Con su licenciatura en Medicina y amplia experiencia en el campo, el Lic. García se especializa en brindar una atención médica integral y de calidad a pacientes de todas las edades. Ya sea que necesites una consulta de rutina, atención para enfermedades comunes o manejo de condiciones crónicas, el Lic. García está aquí para cuidar de tu salud general. Su enfoque se centra en el bienestar integral de sus pacientes, abordando no solo los síntomas y enfermedades actuales, sino también la prevención y promoción de la salud a largo plazo.",
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de medicina general liderado por el destacado doctor Juan García. Con su licenciatura en Medicina y amplia experiencia en el campo, el Dr. García se especializa en brindar una atención médica integral y de calidad a pacientes de todas las edades. Ya sea que necesites una consulta de rutina, atención para enfermedades comunes o manejo de condiciones crónicas, el Dr. García está aquí para cuidar de tu salud general. Su enfoque se centra en el bienestar integral de sus pacientes, abordando no solo los síntomas y enfermedades actuales, sino también la prevención y promoción de la salud a largo plazo.",
         "services": [
             "Realización de exámenes físicos regulares y revisar el estado general de salud de los pacientes. Estas consultas pueden incluir la toma de signos vitales, la revisión de la historia médica, la realización de pruebas de laboratorio y la discusión de cualquier inquietud o síntoma que el paciente pueda tener.",
             "Capacitado para diagnosticar y tratar una amplia variedad de enfermedades y afecciones comunes, como resfriados, gripe, infecciones respiratorias, infecciones urinarias, enfermedades gastrointestinales, alergias, dolores de cabeza, entre otras.",
@@ -99,9 +108,9 @@
             "Proporcionar seguimiento y atención a largo plazo para garantizar la continuidad de la atención médica. Esto implica realizar visitas de seguimiento, monitorear la respuesta al tratamiento y realizar ajustes necesarios en el plan de atención según sea necesario."
         ],
         "about": [
-            "El Lic. Juan García es un médico general altamente capacitado con una sólida formación académica y una amplia experiencia en el campo de la medicina. Obtuvo su licenciatura en Medicina en una reconocida universidad, donde adquirió los conocimientos y las habilidades necesarias para brindar una atención médica integral y de calidad.",
-            "Lic. García ha mantenido su formación actualizada a través de la participación en cursos y programas de educación continua. Ha asistido a talleres especializados y ha obtenido certificaciones en áreas relevantes de la medicina general, lo que le permite brindar un enfoque integral en la atención de sus pacientes.",
-            "Confía en el conocimiento y la experiencia del Lic. Juan García para cuidar de tu salud y bienestar. En nuestro Centro Médico de Especialistas, recibirás una atención médica personalizada y de calidad, donde tu salud y bienestar son nuestra principal prioridad. No dudes en programar una cita con el Lic. García y confía en su experiencia para brindarte una atención médica integral y enfocada en tus necesidades individuales."
+            "El Dr. Juan García es un médico general altamente capacitado con una sólida formación académica y una amplia experiencia en el campo de la medicina. Obtuvo su licenciatura en Medicina en una reconocida universidad, donde adquirió los conocimientos y las habilidades necesarias para brindar una atención médica integral y de calidad.",
+            "Dr. García ha mantenido su formación actualizada a través de la participación en cursos y programas de educación continua. Ha asistido a talleres especializados y ha obtenido certificaciones en áreas relevantes de la medicina general, lo que le permite brindar un enfoque integral en la atención de sus pacientes.",
+            "Confía en el conocimiento y la experiencia del Dr. Juan García para cuidar de tu salud y bienestar. En nuestro Centro Médico de Especialistas, recibirás una atención médica personalizada y de calidad, donde tu salud y bienestar son nuestra principal prioridad. No dudes en programar una cita con el Dr. García y confía en su experiencia para brindarte una atención médica integral y enfocada en tus necesidades individuales."
         ],
         "img": "/img/medicina-general.webp",
         "imgservice": "/img/medicina-general2.jpg",
