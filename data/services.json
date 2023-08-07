@@ -121,19 +121,26 @@
     {
         "title": "Odontología",
         "slug": "odontologia",
-        "doctor": "Ana Torres",
-        "doctorimg": "/img/doctor-1.png",
-        "description": "En nuestro Centro Odontológico Especializado en el fraccionamiento Altavela, Nayarit, contamos con el servicio de odontología liderado por la destacada Lic. Ana Torres. Con su licenciatura en Odontología y amplia experiencia en el campo, la Lic. Torres se especializa en brindar una atención dental integral y de calidad a pacientes de todas las edades. Ya sea que necesites una consulta de rutina, atención para problemas dentales comunes o tratamientos especializados, la Lic. Torres está aquí para cuidar de tu salud bucal. Su enfoque se centra en el bienestar dental integral de sus pacientes, abordando no solo los problemas dentales actuales, sino también la prevención y promoción de una buena salud bucal a largo plazo.",
+        "doctor": "Luis Rivera",
+        "doctorimg": "/img/doctor-2.png",
+        "description": "En nuestro Centro Médico en el fraccionamiento Altavela, Nayarit, contamos con el servicio de odontología liderado por el Dr. Luis Riviera, puedes encontrar todas las especialidades Odontológicas necesarias para ti y toda tu familia.  Con una odontología de vanguardia digitalizada y analógica para llegar al mejor de los resultados. Contamos con los materiales de vanguardia para darte la atención necesaria sin dolor, limpiezas con ultrasonido, rayos x computarizados y cámara intra oral.",
         "services": [
             "Realización de exámenes bucales completos, revisa la salud de tus dientes y encías, y realiza limpiezas dentales profesionales para mantener tu boca sana y prevenir enfermedades dentales.",
-            "Obturaciones dentales (empastes) para tratar las caries y restaurar la estructura dental dañada, devolviendo la funcionalidad y la estética a tus dientes.",
-            "Ofrece servicios de blanqueamiento dental, carillas dentales y restauraciones estéticas para mejorar la apariencia de tus dientes y lograr una sonrisa más radiante.",
-            "Brinda atención especializada en el tratamiento de enfermedades de las encías, como la gingivitis y la periodontitis, para mantener tus encías saludables y prevenir la pérdida dental."
+            "Obturaciones dentales para tratar las caries y restaurar la estructura dental dañada, devolviendo la funcionalidad y la estética a tus dientes.",
+            "Brinda atención especializada en el tratamiento de enfermedades de las encías y periodonto para mantener tus encías saludables y prevenir la pérdida dental.",
+            "Blanqueamiento Dental",
+            "Carillas de porcelana y resina",
+            "Coronas libres de metal",
+            "Resinas",
+            "Incrustaciones de resina, metal y porcelana",
+            "Implantes dentales",
+            "Prótesis totales y parciales",
+            "Guardas nocturnos y deportivos"
         ],
         "about": [
-            "Ana Torres es una especialista en Odontología con una sólida formación académica y una amplia experiencia en el campo. Obtuvo su Licenciatura en Odontología en la Universidad, donde adquirió los conocimientos y las habilidades necesarias para brindar una atención dental de calidad a sus pacientes.",
-            "La Lic. Torres ha participado en numerosos cursos y talleres especializados que han fortalecido su capacitación en el área de la odontología. Entre estos se encuentran cursos de actualización en restauraciones dentales, endodoncia y periodoncia. Además, ha obtenido certificaciones en técnicas de blanqueamiento dental y estética dental avanzada, lo que le permite brindar tratamientos estéticos de alta calidad y mejorar la apariencia dental de sus pacientes.",
-            "En nuestro Centro Odontológico de Especialistas, la Lic. Ana Torres está disponible para ofrecer servicios de consulta y tratamiento en odontología. Su amplio conocimiento en el campo de la odontología y su dedicación a la salud y el bienestar dental de sus pacientes la convierten en una opción confiable para aquellos que buscan mejorar su salud bucal y lograr una sonrisa saludable y hermosa."
+            "El Dr. Luis Rivera es un especialista en Odontología con una sólida formación académica y amplia experiencia en el campo.",
+            "Obtuvo su licenciatura en Cirujano Dentista en la Universidad Autónoma de Nayarit, donde adquirió los conocimientos y las habilidades necesarias para brindar la mejor de las atenciones y calidad frente a sus pacientes. Actualmente Dr. Rivera se encuentra cursando posgrado en Rehabilitación Oral y Estética en Universidad Intercontinental Pierre Fauchard.",
+            "En nuestra clínica el Dr. Rivera está disponible para ofrecer el mejor de los servicios y tratamientos en odontología. Su amplio conocimiento en el campo de la odontología y su dedicación a la salud y el bienestar dental de sus pacientes lo convierten en una opción confiable para aquellos que buscan mejorar su salud bucal y lograr una sonrisa saludable y hermosa."
         ],
         "img": "/img/odontologia.webp",
         "imgservice": "/img/odontologia2.jpg",
