@@ -23,31 +23,31 @@ const Services = () => {
                 <h2>Nuestro Servicios</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-10 w-full h-full items-center justify-around">
                     <div className="flex flex-col items-center">
-                        <Image src="/img/icons/terapia-fisica.png" alt="Terapia Fisica" width={100} height={100} />
-                        <h3>Terapia Fisica</h3>
+                            <Image src="/img/icons/terapia-fisica.png" alt="Terapia Fisica" width={100} height={100} />
+                            <h3>Terapia Fisica</h3>
                     </div>
                     <div className="flex flex-col items-center">
-                    <Image src="/img/icons/cosmetologia.png" alt="Terapia Fisica" width={100} height={100} />
+                        <Image src="/img/icons/cosmetologia.png" alt="Terapia Fisica" width={100} height={100} />
 
                         <h3>Cosmetologia</h3>
                     </div>
                     <div className="flex flex-col items-center">
-                    <Image src="/img/icons/nutriologia.png" alt="Terapia Fisica" width={100} height={100} />
-                        
+                        <Image src="/img/icons/nutriologia.png" alt="Terapia Fisica" width={100} height={100} />
+
                         <h3>Nutricion</h3>
                     </div>
                     <div className="flex flex-col items-center">
-                    <Image src="/img/icons/psicologia.png" alt="Terapia Fisica" width={100} height={100} />
+                        <Image src="/img/icons/psicologia.png" alt="Terapia Fisica" width={100} height={100} />
 
                         <h3>Psicologia</h3>
                     </div>
                     <div className="flex flex-col items-center">
-                    <Image src="/img/icons/medicina-general.png" alt="Terapia Fisica" width={100} height={100} />
+                        <Image src="/img/icons/medicina-general.png" alt="Terapia Fisica" width={100} height={100} />
 
                         <h3>Medicina General</h3>
                     </div>
                     <div className="flex flex-col items-center">
-                    <Image src="/img/icons/odontologia.png" alt="Terapia Fisica" width={100} height={100} />
+                        <Image src="/img/icons/odontologia.png" alt="Terapia Fisica" width={100} height={100} />
 
                         <h3>Odontologia</h3>
                     </div>
