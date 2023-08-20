@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import data from "../../data/services.json"
 
 const Services = () => {
     return (
@@ -22,39 +23,22 @@ const Services = () => {
             <div className="w-full md:w-2/3 bg-[#edf8ff] flex flex-col items-center gap-5 rounded-md py-8">
                 <h2>Nuestro Servicios</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-10 w-full h-full items-center justify-around">
-                    <div className="flex flex-col items-center">
-                        <Image src="/img/icons/terapia-fisica.png" alt="Terapia Fisica" width={100} height={100} />
-                        <h3>Terapia Fisica</h3>
-                    </div>
-                    <div className="flex flex-col items-center">
-                    <Image src="/img/icons/cosmetologia.png" alt="Terapia Fisica" width={100} height={100} />
+                    {
+                        data.map((service,index) => {
+                            return(
+                                <Link key={index} href={`/servicios/${service.slug}`} alt={service.title}>
+                                    <div className="flex flex-col items-center">
+                                        <Image src={service.icon} alt="Terapia Fisica" width={100} height={100} />
+                                        <h3>{service.title}</h3>
+                                    </div>      
+                                </Link>
+                            )
+                        })
+                    }
+                </div >
 
-                        <h3>Cosmetologia</h3>
-                    </div>
-                    <div className="flex flex-col items-center">
-                    <Image src="/img/icons/nutriologia.png" alt="Terapia Fisica" width={100} height={100} />
-                        
-                        <h3>Nutricion</h3>
-                    </div>
-                    <div className="flex flex-col items-center">
-                    <Image src="/img/icons/psicologia.png" alt="Terapia Fisica" width={100} height={100} />
-
-                        <h3>Psicologia</h3>
-                    </div>
-                    <div className="flex flex-col items-center">
-                    <Image src="/img/icons/medicina-general.png" alt="Terapia Fisica" width={100} height={100} />
-
-                        <h3>Medicina General</h3>
-                    </div>
-                    <div className="flex flex-col items-center">
-                    <Image src="/img/icons/odontologia.png" alt="Terapia Fisica" width={100} height={100} />
-
-                        <h3>Odontologia</h3>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

@@ -16,7 +16,7 @@ const Footer = () => {
                                 63735 Nay.
                             </Link>
                             <Link href="tel:+5213221921554" className="flex items-center justify-start gap-4"><FaPhone/> 322 192 1554</Link>
-                            <Link href="mailto:hola@rivieramedicalcenter.com" className="flex items-center justify-start gap-4"><FaEnvelope/> hola@rivieramedicalcenter.com</Link>
+                            <Link href="mailto:rivieramedicalcenter@gmail.com" className="flex items-center justify-start gap-4"><FaEnvelope/> rivieramedicalcenter@gmail.com</Link>
                         </div>
                     </div>
                     <div className="w-full  md:w-1/2 lg:w-2/3">
@@ -43,7 +43,7 @@ const Footer = () => {
                             Altavela, Nayarit. Contamos con un equipo de
                             profesionales altamente capacitados en nutriología,
                             cosmetología, odontología, terapia física y
-                            psicología.{" "}
+                            psicología.
                         </p>
                     </div>
                     <div className="">
@@ -74,7 +74,7 @@ const Footer = () => {
                                 63735 Nay.
                             </Link>
                             <Link href="tel:+5213221921554" className="flex items-center justify-start gap-4"><FaPhone/> 322 192 1554</Link>
-                            <Link href="mailto:hola@rivieramedicalcenter.com" className="flex items-center justify-start gap-4"><FaEnvelope/> hola@rivieramedicalcenter.com</Link>
+                            <Link href="mailto:rivieramedicalcenter@gmail.com" className="flex items-center justify-start gap-4"><FaEnvelope/> rivieramedicalcenter@gmail.com</Link>
                         </div>
                     </div>
                 </div>
