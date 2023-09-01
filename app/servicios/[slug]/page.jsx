@@ -64,7 +64,7 @@ const page = ({ params: { slug } }) => {
                             alt={service.title}
                             width={350}
                             height={350}
-                            className="mx-auto mt-10"
+                            className="mx-auto mt-10 rounded-full"
                         />
                         <h2>{service.doctor}</h2>
                         <p>{service.title}</p>
@@ -85,7 +85,7 @@ const page = ({ params: { slug } }) => {
                             alt={service.title}
                             width={350}
                             height={350}
-                            className="mx-auto mt-10"
+                            className="mx-auto mt-10 rounded-full"
                         />
                         <h2>{service.doctor}</h2>
                         <p>{service.title}</p>
@@ -122,7 +122,7 @@ const page = ({ params: { slug } }) => {
                                 alt={service.title}
                                 width={350}
                                 height={350}
-                                className="mx-auto mt-10"
+                                className="mx-auto mt-10 rounded-full"
                                 />
                             <h2>{service.doctor}</h2>
                             <p>{service.title}</p>
@@ -146,7 +146,7 @@ const page = ({ params: { slug } }) => {
                                 alt={service.title}
                                 width={350}
                                 height={350}
-                                className="mx-auto mt-10"
+                                className="mx-auto mt-10 rounded-full"
                                 />
                             <h2>{service.doctor2}</h2>
                             <p>{service.title}</p>
