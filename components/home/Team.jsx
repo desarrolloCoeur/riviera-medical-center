@@ -17,7 +17,7 @@ const Team = () => {
                                         alt="doctor"
                                         width={350}
                                         height={350}
-                                        className="mx-auto"
+                                        className="mx-auto rounded-full "
                                     />
                                     <h3>{service.doctor}</h3>
                                     <p>{service.title}</p>
@@ -27,11 +27,11 @@ const Team = () => {
                     }
                     <Link  href="/servicios/psicologia" alt="Psicologia">
                         <Image
-                            src="/img/doctor-2.png"
+                            src="/img/Hans-Meza-psicologia.jpg"
                             alt="doctor"
                             width={350}
                             height={350}
-                            className="mx-auto"
+                            className="mx-auto rounded-full"
                         />
                         <h3>Hans Meza</h3>
                         <p>Psicología</p>

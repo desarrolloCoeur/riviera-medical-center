@@ -3,7 +3,7 @@
         "title": "Nutriologia",
         "slug": "nutriologia",
         "doctor": "Naira Cisneros",
-        "doctorimg": "/img/doctor-1.png",
+        "doctorimg": "/img/naira-cisneros-nutriologa.jpg",
         "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de nutrición liderado por la destacada licenciada Naira Cisneros. Con su licenciatura en Nutrición y amplia experiencia en el campo, la Licenciada Cisneros se especializa en brindar atención personalizada y experta en nutrición. Si tu meta es perder peso, mejorar tu salud digestiva, manejar condiciones específicas o simplemente adoptar hábitos alimentarios más saludables, la Lic. Cisneros te proporcionará un plan nutricional adaptado a tus necesidades individuales. Con su enfoque centrado en la salud integral, recibirás el apoyo necesario para alcanzar tus objetivos y disfrutar de una vida más saludable. Confía en el conocimiento y la experiencia de la Lic. Naira Cisneros para cuidar de tu nutrición y bienestar.",
         "services": [
             "Evaluación del estado nutricio a nivel individual en las diferentes etapas de la vida, en individuos sanos o enfermos, considerando indicadores antropométricos, dietéticos, bioquímicos, clínicos, entre otros.",
@@ -17,8 +17,8 @@
             "En el año 2020, Naira participó en el evento 'ABCD de la obesidad' organizado por el IMSS y también en el tema de 'Consulta Online y Covid' en la UNINUT. En 2021, asistió al Simposio de Nutrición Clínica Pediátrica y al Simposio de Nutrición en el Embarazo, ambos organizados por la FNNC.",
             "Con una sólida formación y una amplia experiencia en nutrición, Naira Cisneros se dedica a proporcionar servicios de consulta y asesoramiento nutricional, brindando apoyo en temas relacionados con la alimentación y la salud en diferentes etapas de la vida, incluyendo infantes, adolescentes, embarazadas y pacientes con condiciones específicas como el síndrome de ovario poliquístico."
         ],
-        "img": "/img/nutricion.webp",
-        "imgservice": "/img/nutriologia.jpg",
+        "img": "/img/nutricion-4.webp",
+        "imgservice": "/img/nutricion-2.webp",
         "imghero": "/img/nutriologia-hero.jpg",
         "icon": "/img/icons/nutriologia.png"
     },
@@ -28,8 +28,8 @@
         "slug": "psicologia",
         "doctor": "Esther Tostado",
         "doctor2" : "Hans Meza",
-        "doctorimg": "/img/doctor-1.png",
-        "doctorimg2": "/img/doctor-2.png",
+        "doctorimg": "/img/Esther-Tostado-psicologa.jpg",
+        "doctorimg2": "/img/Hans-Meza-psicologia.jpg",
         "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de psicología liderado por los destados psicologos Esther y Hans Con su licenciatura en Psicología y amplia experiencia en el campo, Esther y Hans se especializa en brindar atención personalizada y experta en salud mental y emocional. Si estás enfrentando dificultades emocionales, trastornos del estado de ánimo, problemas de ansiedad, estrés o simplemente necesitas apoyo psicológico para afrontar los desafíos de la vida, los Lic. Esther y Hans están aquí para ayudarte.",
         "services": [
             "Evaluaciones psicológicas para identificar y diagnosticar problemas de salud mental, trastornos emocionales o dificultades en el funcionamiento psicológico de la persona.",
@@ -60,8 +60,8 @@
             "Egresado de la universidad autónoma de nayarit",
             "Diplomado en terapia cognitiva conductual y contextual y en intervención en crisis emocionales en el Instituto nayarita de terapia cognitiva conductual y contextual"
         ],
-        "img": "/img/psicologia.webp",
-        "imgservice": "/img/psicologia2.webp",
+        "img": "/img/psicologia-3.webp",
+        "imgservice": "/img/psicologia-7.webp",
         "imghero": "/img/hero-2.jpg",
         "icon": "/img/icons/psicologia.png"
     },
@@ -70,7 +70,7 @@
         "title": "Terapia Física",
         "slug": "terapia-fisica",
         "doctor": "Maria Guadalupe Peña Meza",
-        "doctorimg": "/img/doctor-1.png",
+        "doctorimg": "/img/Maria-Guadalupe-terapia-fisica.jpg",
 
         "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de terapia física liderado por la destacada licenciada Maria Guadalupe Peña Meza. La Lic. es una profesional altamente cualificada en el campo de la fisioterapia, habiendo obtenido su Licenciatura en Fisioterapia en la prestigiosa Universidad Vizcaya de las Américas. Su profundo conocimiento y amplia experiencia en este ámbito la han convertido en una experta en el cuidado y mejora de diversas necesidades y condiciones médicas. En nuestro Centro Médico de Especialistas, nos comprometemos a proporcionar servicios de terapia física de la más alta calidad, respaldados por instalaciones modernas y equipos especializados.",
         "services": [
@@ -89,8 +89,8 @@
             "Certificación 'Evaluación funcional y tratamiento de lesiones de la extremidad inferior en medicina y fisioterapia deportiva'"
         ],
 
-        "img": "/img/terapia-fisica.webp",
-        "imgservice": "/img/terapia-fisica2.jpg",
+        "img": "/img/terapia-fisica-2.webp",
+        "imgservice": "/img/terapia-fisica-2.webp",
         "imghero": "/img/hero-2.jpg",
         "icon": "/img/icons/terapia-fisica.png"
     },
@@ -99,7 +99,7 @@
         "title": "Medicina General",
         "slug": "medicina-general",
         "doctor": "Juan Garcia",
-        "doctorimg": "/img/doctor-2.png",
+        "doctorimg": "/img/Juan-Garcia-medicina-general.jpg",
         "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de medicina general liderado por el destacado doctor Juan García. Con su licenciatura en Medicina y amplia experiencia en el campo, el Dr. García se especializa en brindar una atención médica integral y de calidad a pacientes de todas las edades. Ya sea que necesites una consulta de rutina, atención para enfermedades comunes o manejo de condiciones crónicas, el Dr. García está aquí para cuidar de tu salud general. Su enfoque se centra en el bienestar integral de sus pacientes, abordando no solo los síntomas y enfermedades actuales, sino también la prevención y promoción de la salud a largo plazo.",
         "services": [
             "Realización de exámenes físicos regulares y revisar el estado general de salud de los pacientes. Estas consultas pueden incluir la toma de signos vitales, la revisión de la historia médica, la realización de pruebas de laboratorio y la discusión de cualquier inquietud o síntoma que el paciente pueda tener.",
@@ -112,8 +112,8 @@
             "Dr. García ha mantenido su formación actualizada a través de la participación en cursos y programas de educación continua. Ha asistido a talleres especializados y ha obtenido certificaciones en áreas relevantes de la medicina general, lo que le permite brindar un enfoque integral en la atención de sus pacientes.",
             "Confía en el conocimiento y la experiencia del Dr. Juan García para cuidar de tu salud y bienestar. En nuestro Centro Médico de Especialistas, recibirás una atención médica personalizada y de calidad, donde tu salud y bienestar son nuestra principal prioridad. No dudes en programar una cita con el Dr. García y confía en su experiencia para brindarte una atención médica integral y enfocada en tus necesidades individuales."
         ],
-        "img": "/img/medicina-general.webp",
-        "imgservice": "/img/medicina-general2.jpg",
+        "img": "/img/medicina-general-2.webp",
+        "imgservice": "/img/medicina-general-2.webp",
         "imghero": "/img/hero-2.jpg",
         "icon": "/img/icons/medicina-general.png"
     },
@@ -122,7 +122,7 @@
         "title": "Odontología",
         "slug": "odontologia",
         "doctor": "Luis Rivera",
-        "doctorimg": "/img/doctor-2.png",
+        "doctorimg": "/img/Luis-Rivera-odontologia.jpg",
         "description": "En nuestro Centro Médico en el fraccionamiento Altavela, Nayarit, contamos con el servicio de odontología liderado por el Dr. Luis Riviera, puedes encontrar todas las especialidades Odontológicas necesarias para ti y toda tu familia.  Con una odontología de vanguardia digitalizada y analógica para llegar al mejor de los resultados. Contamos con los materiales de vanguardia para darte la atención necesaria sin dolor, limpiezas con ultrasonido, rayos x computarizados y cámara intra oral.",
         "services": [
             "Realización de exámenes bucales completos, revisa la salud de tus dientes y encías, y realiza limpiezas dentales profesionales para mantener tu boca sana y prevenir enfermedades dentales.",
@@ -142,8 +142,8 @@
             "Obtuvo su licenciatura en Cirujano Dentista en la Universidad Autónoma de Nayarit, donde adquirió los conocimientos y las habilidades necesarias para brindar la mejor de las atenciones y calidad frente a sus pacientes. Actualmente Dr. Rivera se encuentra cursando posgrado en Rehabilitación Oral y Estética en Universidad Intercontinental Pierre Fauchard.",
             "En nuestra clínica el Dr. Rivera está disponible para ofrecer el mejor de los servicios y tratamientos en odontología. Su amplio conocimiento en el campo de la odontología y su dedicación a la salud y el bienestar dental de sus pacientes lo convierten en una opción confiable para aquellos que buscan mejorar su salud bucal y lograr una sonrisa saludable y hermosa."
         ],
-        "img": "/img/odontologia.webp",
-        "imgservice": "/img/odontologia2.jpg",
+        "img": "/img/odontologia-3.webp",
+        "imgservice": "/img/odontologia-3.webp",
         "imghero": "/img/hero-2.jpg",
         "icon": "/img/icons/odontologia.png"
     },
@@ -153,7 +153,7 @@
         "slug": "cosmetologia",
 
         "doctor": "Xóchitl Gámez",
-        "doctorimg": "/img/doctor-1.png",
+        "doctorimg": "/img/Xóchitl-Gámez-cosmetologa.jpg",
         "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de cosmetología liderado por la destacada Cosmetologa Cosmiatra Xóchitl Gámez. Con Diplomado en Cosmetología facial, Cosmiatria y amplia experiencia en el campo, se especializa en brindar el mejor de los servicios en tratamientos faciales y corporales específicos a cada uno de los paciente, además de sus capacitaciones en Drenaje linfático, Aparatologia Estética, conocimientos de  mesoterapia dentro del área Cosmetologica, Ofrece una amplia gama de servicios relacionados con el cuidado y la mejora estética de la piel y el aspecto físico.",
         "services": [
             "Realización de una evaluación exhaustiva del paciente, teniendo en cuenta factores como el estado de la piel, aspectos estéticos relevantes, entre otros.  Se utilizan indicadores clínicos, estéticos y de salud para determinar las necesidades y los objetivos específicos del paciente.",
@@ -170,8 +170,8 @@
             "Xóchitl Gámez se dedica a proporcionar servicios de consulta y asesoramiento cosmetológico, brindando apoyo en temas relacionados con la cosmetología facial y la salud."
         ],
 
-        "img": "/img/cosmetologia.webp",
-        "imgservice": "/img/cosmetologia2.jpg",
+        "img": "/img/cosmetologia-5.webp",
+        "imgservice": "/img/cosmetologia-7.webp",
         "imghero": "/img/hero-2.jpg",
         "icon": "/img/icons/cosmetologia.png"
     }

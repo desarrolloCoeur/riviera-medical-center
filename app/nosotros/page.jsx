@@ -28,7 +28,7 @@ const page = () => {
                     </div>
                     <div className="w-full md:w-1/2 p-4">
                         <Image
-                            src="/img/centro-medico.jpg"
+                            src="/img/riviera-medical.webp"
                             alt="Centro Medico ubicado en Altavela"
                             width={700}
                             height={800}
