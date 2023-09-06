@@ -72,7 +72,7 @@
         "doctor": "Guadalupe Peña",
         "doctorimg": "/img/Maria-Guadalupe-terapia-fisica.jpg",
 
-        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de terapia física liderado por la destacada licenciada Maria Guadalupe Peña Meza. La Lic. es una profesional altamente cualificada en el campo de la fisioterapia, habiendo obtenido su Licenciatura en Fisioterapia en la prestigiosa Universidad Vizcaya de las Américas. Su profundo conocimiento y amplia experiencia en este ámbito la han convertido en una experta en el cuidado y mejora de diversas necesidades y condiciones médicas. En nuestro Centro Médico de Especialistas, nos comprometemos a proporcionar servicios de terapia física de la más alta calidad, respaldados por instalaciones modernas y equipos especializados.",
+        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de terapia física liderado por la destacada licenciada Guadalupe Peña. La Lic. es una profesional altamente cualificada en el campo de la fisioterapia, habiendo obtenido su Licenciatura en Fisioterapia en la prestigiosa Universidad Vizcaya de las Américas. Su profundo conocimiento y amplia experiencia en este ámbito la han convertido en una experta en el cuidado y mejora de diversas necesidades y condiciones médicas. En nuestro Centro Médico de Especialistas, nos comprometemos a proporcionar servicios de terapia física de la más alta calidad, respaldados por instalaciones modernas y equipos especializados.",
         "services": [
             "Evaluación de la condición física, rangos de movilidad, flexibilidad y fuerza del paciente mediante diversas técnicas y pruebas para diagnosticar problemas y elaborar un plan de tratamiento personalizado en el cual se implementarán terapias manuales, programas de ejercicio terapéutico, electroterapia, ultrasonido terapéutico, vendaje neuromuscular, programa de ejercicio en casa, para así lograr apoyar a los pacientes a incorporarse a las actividades de la vida diaria.",
             "Manejo del dolor crónico Abordaje terapéutico para niños, bebes, mujeres embarazadas, adultos mayores, deportistas, entre otros.",
@@ -96,21 +96,23 @@
     },
 
     {
-        "title": "Medicina General",
-        "slug": "medicina-general",
-        "doctor": "Juan Garcia",
-        "doctorimg": "/img/Juan-Garcia-medicina-general.jpg",
-        "description": "En nuestro Centro Médico de Especialistas en el fraccionamiento Altavela, Nayarit, contamos con el servicio de medicina general liderado por el destacado doctor Juan García. Con su licenciatura en Medicina y amplia experiencia en el campo, el Dr. García se especializa en brindar una atención médica integral y de calidad a pacientes de todas las edades. Ya sea que necesites una consulta de rutina, atención para enfermedades comunes o manejo de condiciones crónicas, el Dr. García está aquí para cuidar de tu salud general. Su enfoque se centra en el bienestar integral de sus pacientes, abordando no solo los síntomas y enfermedades actuales, sino también la prevención y promoción de la salud a largo plazo.",
+        "title": "Medicina Interna",
+        "slug": "medicina-interna",
+        "doctor": "Armando Alvarado",
+        "doctorimg": "/img/armando-alvarado-medicina-general.jpg",
+        "description": "En nuestro Centro Médico de Especialistas, contamos con el servicio de medicina interna liderado por el destacado doctor Armando Alvarado. Con su capacitación en el manejo de valoraciones preoperatorias, manejo integral en pacientes hospitalizados de cualquier área médica adulta, enfermedades crónico-degenerativas y cuidados intensivos. Tu salud integral en manos del Dr. Alvarado es su prioridad. Trato digno, humano, consciente y profesional.",
         "services": [
-            "Realización de exámenes físicos regulares y revisar el estado general de salud de los pacientes. Estas consultas pueden incluir la toma de signos vitales, la revisión de la historia médica, la realización de pruebas de laboratorio y la discusión de cualquier inquietud o síntoma que el paciente pueda tener.",
-            "Capacitado para diagnosticar y tratar una amplia variedad de enfermedades y afecciones comunes, como resfriados, gripe, infecciones respiratorias, infecciones urinarias, enfermedades gastrointestinales, alergias, dolores de cabeza, entre otras.",
-            "Prevención de enfermedades y en la promoción de un estilo de vida saludable. Pueden proporcionar orientación sobre la dieta, el ejercicio, la vacunación, la detección temprana de enfermedades y la realización de exámenes de detección periódicos.",
-            "Proporcionar seguimiento y atención a largo plazo para garantizar la continuidad de la atención médica. Esto implica realizar visitas de seguimiento, monitorear la respuesta al tratamiento y realizar ajustes necesarios en el plan de atención según sea necesario."
+            "Nuestro enfoque integral aborda condiciones como la diabetes, hipertensión y dislipidemia, ayudándole a controlar su salud metabólica y reducir los riesgos asociados.",
+            "Si ha sido diagnosticado con insuficiencia cardíaca o cardiomiopatía, estamos aquí para brindarle el manejo y la atención necesarios para mantener su corazón en su mejor forma.",
+            "Tratamos la anemia y trabajamos para identificar y abordar sus causas subyacentes, restaurando su vitalidad y energía.",
+            "Ofrecemos orientación y tratamiento para el síndrome metabólico, ayudándole a mejorar su salud cardiovascular y reducir el riesgo de enfermedades del corazón.", 
+            "Tratamos afecciones como el síndrome de colon irritable, gastritis crónica y sangrado de tubo digestivo, brindándole alivio y control de síntomas.", 
+            "Desde bronquitis crónica hasta problemas respiratorios más complejos, ofrecemos evaluación y manejo completo para problemas respiratorios."
         ],
         "about": [
-            "El Dr. Juan García es un médico general altamente capacitado con una sólida formación académica y una amplia experiencia en el campo de la medicina. Obtuvo su licenciatura en Medicina en una reconocida universidad, donde adquirió los conocimientos y las habilidades necesarias para brindar una atención médica integral y de calidad.",
-            "Dr. García ha mantenido su formación actualizada a través de la participación en cursos y programas de educación continua. Ha asistido a talleres especializados y ha obtenido certificaciones en áreas relevantes de la medicina general, lo que le permite brindar un enfoque integral en la atención de sus pacientes.",
-            "Confía en el conocimiento y la experiencia del Dr. Juan García para cuidar de tu salud y bienestar. En nuestro Centro Médico de Especialistas, recibirás una atención médica personalizada y de calidad, donde tu salud y bienestar son nuestra principal prioridad. No dudes en programar una cita con el Dr. García y confía en su experiencia para brindarte una atención médica integral y enfocada en tus necesidades individuales."
+            "El Dr. Armando Alvarado es un médico internista altamente capacitado con amplia experiencia en el campo de la medicina. Certificado por el Consejo Mexicano de Medicina Interna.",
+            "Dr. Alvarado ha mantenido su formación actualizada a través de la participación en cursos y programas de educación continua. Ha asistido a talleres especializados y ha obtenido certificaciones en áreas relevantes de la medicina interna, lo que le permite brindar un enfoque integral en la atención de sus pacientes.",
+            "Confía en el conocimiento y la experiencia del Dr. Armando Alvarado para cuidar de tu salud y bienestar. En nuestro Centro Médico de Especialistas, recibirás una atención médica personalizada y de calidad, donde tu salud y bienestar son nuestra principal prioridad. No dudes en programar una cita con el Dr. Alvarado y confía en su experiencia para brindarte una atención médica integral y enfocada en tus necesidades individuales."
         ],
         "img": "/img/medicina-general-2.webp",
         "imgservice": "/img/medicina-general-2.webp",
