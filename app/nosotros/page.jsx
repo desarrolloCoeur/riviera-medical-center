@@ -27,12 +27,12 @@ const page = () => {
                         </p>
                     </div>
                     <div className="w-full md:w-1/2 p-4">
-                        <Image
+                        {/* <Image
                             src="/img/riviera-medical.webp"
                             alt="Centro Medico ubicado en Altavela"
                             width={700}
                             height={800}
-                        />
+                        /> */}
                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 justify-center">
