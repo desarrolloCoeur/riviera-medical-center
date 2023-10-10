@@ -96,6 +96,35 @@
     },
 
     {
+        "title": "Pediatría",
+        "slug": "pediatria",
+        "doctor": "Sara Alonso",
+        "doctorimg": "/img/sara-alonso.webp",
+
+        "description": "La Dra. Sara Alonso, cuenta con la especialidad de pediatría y subespecialidad en nefrología pediátrica. Tiene la capacitación y experiencia necesaria para la atención clínica en las diferentes etapas de la vida en edad pediátrica como son: recién nacidos, lactantes, preescolares, escolares y adolescentes. Los integrantes más pequeños de la familia se sentirán en confianza y serán atendidos con calidad, respeto, ética y eficiencia. Además, si sospechas o sabes que tu hijo tiene algún padecimiento en sus riñones, la Dra. Alonso cuenta con el conocimiento necesario para brindarte el apoyo que necesitas y resolver todas tus dudas.",
+        "services": [
+            "Control del niño sano",
+            "Consulta pediátrica general",
+            "Consulta prenatal (antes del nacimiento de tu bebé)",
+            "Atención del recién nacido",
+            "Pro-lactancia materna",
+            "Asesoría en alimentación complementaria",
+            "Consulta de nefrología pediátrica (atención especializada en enfermedades de los riñones en niños):",
+            "Síndrome nefrótico/nefrítico, Detección de malformaciones renales, Infecciones de vías urinarias recurrentes, Hipertensión arterial, Hematuria y proteinuria, Litiasis renal, Enfermedad renal crónica, Valoración de función renal y Acidosis tubular renal"
+        ],
+        "about": [
+            "La Dra. Sara Alonso estudió su licenciatura en la Universidad Nacional Autónoma de México (UNAM), especialista en Pediatría avalada por la Universidad Autónoma Benito Juárez de Oaxaca y estudió la subespecialidad de nefrología pediátrica en el Hospital de Pediatría del Centro Médico Nacional Siglo XXI en la Cuidad de México, avalada por la Universidad Nacional Autónoma de México. Actualmente matriculada para su formación como asesora de lactancia materna por el Instituto de Ciencias de la Salud de España.",
+            "Ha participado en múltiples congresos para su actualización medica relacionados con atención pediátrica, nefrología pediátrica y lactancia materna. Proporciona asesoría para promover el adecuado desarrollo y alimentación de tus hijos en las diferentes etapas de su vida.",
+            "Un niño también merece verlo crecer sano y desarrollarse de manera adecuada; ésta es una travesía que puedes y debes disfrutar junto con tu hijo."
+        ],
+
+        "img": "/img/pediatria-(3).webp",
+        "imgservice": "/img/pediatria-(3).webp",
+        "imghero": "/img/hero-2.jpg",
+        "icon": "/img/icons/pediatria-icono.png"
+    },
+
+    {
         "title": "Medicina Interna",
         "slug": "medicina-interna",
         "doctor": "Armando Alvarado",
