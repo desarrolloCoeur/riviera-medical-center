@@ -1,10 +1,16 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useEffect, useRef } from 'react';
 
 const Hero = () => {
+
+  const vidRef=useRef();
+  useEffect(() => { vidRef.current.play(); },[]);
+
   return (
     <div className='h-[100dvh] relative'>
-        <video width="1920" height="1080" autoPlay muted loop className='h-full w-full object-cover'>
+        <video width="1920" height="1080" autoPlay muted loop ref={ vidRef } className='h-full w-full object-cover'>
           <source src="/video/riviera-medical.mp4" type="video/mp4" />
         </video>
 
@@ -17,6 +23,7 @@ const Hero = () => {
         </div> */}
     </div>
   )
+  
 }
 
 export default Hero
