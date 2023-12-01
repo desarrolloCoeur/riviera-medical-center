@@ -25,3 +25,12 @@
     }
 }
 
+#promotional {
+    background: linear-gradient(
+            rgba(199, 199, 199, 0.7) 100%,
+            rgba(214, 214, 214, 0.4) 100%
+        ),
+        url(/img/hero-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
