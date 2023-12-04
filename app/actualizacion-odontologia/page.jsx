@@ -4,24 +4,19 @@ import Image from 'next/image'
 const page = () => {
     return (
         <>
-            <div>
-                <div className="mx-auto flex items-end mb-20 p-5 bg-cover bg-[#edf8ff]">
-                    <div className="container mx-auto flex flex-col md:flex-row gap-5 w-full justify-center items-center">
-                        {/* <Image src={service.icon} alt={service.title} width={200} height={200} /> */}
-                        <h1 className="text-3xl md:text-5xl lg:text-7xl rounded-md p-3 uppercase text-[#FF9143] ">
-                            Odontología
-                        </h1>
-                    </div>
+            <div className="mx-auto flex items-end mb-20 p-5 bg-cover bg-[#edf8ff]">
+                <div className="container mx-auto flex flex-col md:flex-row gap-5 w-full justify-center items-center">
+                    <Image src='/img/icons/odontologia.png' alt="" width={150} height={150} />
+                    <h1 className="text-3xl md:text-5xl lg:text-7xl rounded-md p-3 uppercase text-[#FF9143] ">
+                        Odontología
+                    </h1>
                 </div>
             </div>
 
-
-            <div className="container  mx-auto"> 
-            {/* w-11/12 */}
-
-                <div className="flex flex-wrap justify-around items-center w-full">
-                    <div className="lg:w-2/3 w-full">
-                        <h2 className="text-center lg:text-4xl text-2xl">Riviera Medical Center / <span className="text-[#FF9143]">Odontologia</span></h2>
+            <div className="container mx-auto"> 
+                <div className="flex flex-wrap justify-around items-center w-full ">
+                    <div className="lg:w-2/3 w-full mx-8">
+                        <h2 className="text-center text-4xl">Riviera Medical Center / <span className="text-[#FF9143]">Odontología</span></h2>
                         <p className="text-center font-light lg:text-lg text-ms">
                             En nuestro Centro Médico en el fraccionamiento Altavela, Nayarit, contamos con el servicio de 
                             odontología liderado por el Dr. Luis Riviera, puedes encontrar todas las especialidades
@@ -33,95 +28,125 @@ const page = () => {
                     </div>
                 </div>
 
-
-                <div className="grid grid-cols-3 justify-center my-24">
-                    <div  className="text-center">
-                        <Image src="/img/doctor5.webp" alt="" width={350} height={350} className="mx-auto object-cover	"/>
-                    </div>
-
-                    <div class="w-full h-full py-16 px-16 justify-center items-center col-span-2" id="promotional">
-                        <h2>Odontología / <span className="text-[#FF9143]">Luis Rivera</span></h2>
-                        <p className='font-light lg:text-lg text-ms'>
-                            El Dr. Luis Rivera es un especialista en Odontología con una sólida formación 
-                            académica y amplia experiencia en el campo. Obtuvo su licenciatura en Cirujano 
-                            Dentista en la Universidad Autónoma de Nayarit, donde adquirió los conocimientos 
-                            y las habilidades necesarias para brindar la mejor de las atenciones y calidad 
-                            frente a sus pacientes. Actualmente Dr. Rivera se encuentra cursando posgrado 
-                            en Rehabilitación Oral y Estética en Universidad Intercontinental Pierre Fauchard.
-                        </p>
-                        <p className='font-light lg:text-lg text-ms pt-3'>
-                            En nuestra clínica el Dr. Rivera está disponible para ofrecer el mejor de los 
-                            servicios y tratamientos en odontología. Su amplio conocimiento en el campo de 
-                            la odontología y su dedicación a la salud y el bienestar dental de sus pacientes 
-                            lo convierten en una opción confiable para aquellos que buscan mejorar su salud 
-                            bucal y lograr una sonrisa saludable y hermosa.
-                        </p>
-                    </div>
-
-                    {/* <div className="md:p-10 mt-10 md:w-1/2 lg:w-3/4">
-                        <h2>Odontología / <span className="text-[#FF9143]">Luis Rivera</span></h2>
-                        <p className='font-light lg:text-lg text-ms'>
-                            El Dr. Luis Rivera es un especialista en Odontología con una sólida formación 
-                            académica y amplia experiencia en el campo. Obtuvo su licenciatura en Cirujano 
-                            Dentista en la Universidad Autónoma de Nayarit, donde adquirió los conocimientos 
-                            y las habilidades necesarias para brindar la mejor de las atenciones y calidad 
-                            frente a sus pacientes. Actualmente Dr. Rivera se encuentra cursando posgrado 
-                            en Rehabilitación Oral y Estética en Universidad Intercontinental Pierre Fauchard.
-                        </p>
-                        <p className='font-light lg:text-lg text-ms pt-3'>
-                            En nuestra clínica el Dr. Rivera está disponible para ofrecer el mejor de los 
-                            servicios y tratamientos en odontología. Su amplio conocimiento en el campo de 
-                            la odontología y su dedicación a la salud y el bienestar dental de sus pacientes 
-                            lo convierten en una opción confiable para aquellos que buscan mejorar su salud 
-                            bucal y lograr una sonrisa saludable y hermosa.
-                        </p>
-                    </div> */}
-
-                </div>
-
-
-
-                <div className="md:p-10 mt-10" id="servicios">
-
-                        <div className='grid grid-cols-2 gap-6'>
-                            <div>
-                                <h2>Servicios Estéticos</h2>
-                                <ul>
-                                    <li>Blanqueamiento Dental</li>
-                                    <li>Carillas de porcelana / resina</li>
-                                    <li>Incrustaciones de resina / metal / porcelana</li> 
-
-                                </ul>
-                            </div>
-                            <div>
-                                <h2>Servicios de Restauración</h2>
-                                <ul>
-                                    <li>Resinas</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h2>Prótesis fijas y removibles</h2>
-                                <ul>
-                                    <li>Coronas libres de metal</li>  
-                                    <li>Implantes dentales</li> 
-                                    <li>Prótesis totales y parciales</li>  
-                                    <li>Guardas nocturnos y deportivos</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h2>Otros servicios generales</h2>
-                                <ul>
-                                    <li>Realización de exámenes bucales completos, revisa la salud de tus dientes y encías, y realiza limpiezas dentales profesionales para mantener tu boca sana y prevenir enfermedades dentales.</li>
-                                    <li>Obturaciones dentales para tratar las caries y restaurar la estructura dental dañada, devolviendo la funcionalidad y la estética a tus dientes.</li>
-                                    <li>Brinda atención especializada en el tratamiento de enfermedades de las encías y periodonto para mantener tus encías saludables y prevenir la pérdida dental.</li>
-                                </ul>
+                <section className='container mx-auto my-24'>
+                    <div className='flex flex-wrap justify-center sm:flex-nowrap flex-col sm:flex-row'>
+                        <div className='sm:w-1/4 text-center my-auto'>
+                            <img className='w-full h-[80vh]  object-cover object-center' src="/img/doctor5.webp"/>
+                        </div>
+                        <div className='sm:w-3/4' id="promotional">
+                            <div className='justify-center items-center lg:mt-32 mt-12 lg:mx-16 mx-12 lg:mb-0 mb-12'>
+                                <h2 className='text-4xl'>Odontología / <span className="text-[#FF9143]">Luis Rivera</span></h2>
+                                <p className='font-light lg:text-lg text-ms'>
+                                    El Dr. Luis Rivera es un especialista en Odontología con una sólida formación 
+                                    académica y amplia experiencia en el campo. Obtuvo su licenciatura en Cirujano 
+                                    Dentista en la Universidad Autónoma de Nayarit, donde adquirió los conocimientos 
+                                    y las habilidades necesarias para brindar la mejor de las atenciones y calidad 
+                                    frente a sus pacientes. Actualmente Dr. Rivera se encuentra cursando posgrado 
+                                    en Rehabilitación Oral y Estética en Universidad Intercontinental Pierre Fauchard.
+                                </p>
+                                <p className='font-light lg:text-lg text-ms pt-3'>
+                                    En nuestra clínica el Dr. Rivera está disponible para ofrecer el mejor de los 
+                                    servicios y tratamientos en odontología. Su amplio conocimiento en el campo de 
+                                    la odontología y su dedicación a la salud y el bienestar dental de sus pacientes 
+                                    lo convierten en una opción confiable para aquellos que buscan mejorar su salud 
+                                    bucal y lograr una sonrisa saludable y hermosa.
+                                </p>
                             </div>
                         </div>
-            
                     </div>
+                </section>
 
 
+            <div className='grid lg:grid-cols-2 grid-cols-1 w-11/12 mx-auto gap-12 mb-24'>
+                <div className="mx-auto text-base">
+                    <div className='grid lg:grid-cols-2 grid-cols-1 lg:mx-0 mx-3 gap-6'>
+                        <div>
+                            <img className='mx-auto pb-3' width="48" height="48" src="https://img.icons8.com/color/48/tooth.png" alt="tooth"/>
+                            <h2 className='lg:text-center text-left'>Servicios Estéticos</h2>
+                            <ul className='list-disc font-light pl-6'>
+                                <li>Blanqueamientos</li>
+                                <li>Carillas de Porcelana</li>
+                                <li>Carillas directas de resina</li> 
+                                <li>Incrustaciones al color</li>
+                                <li>Coronas en cerámica libres de metal</li>
+                                <li>Cirugía periodontal (cirugía de Encias) </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img className='mx-auto pb-3' width="48" height="48" src="https://img.icons8.com/color/48/dental-filling.png" alt="dental-filling"/>
+                            <h2 className='lg:text-center text-left'>Servicios de Restauración</h2>
+                            <ul className='list-disc font-light pl-6'>
+                                <li>Resinas</li>
+                                <li>Selladores</li>
+                                <li>Incrustaciones en metal</li>
+                                <li>Incrustaciones al color</li>
+                                <li>Amalgamas</li>
+                                <li>Reconstrucciones de piezas dentales parcialmente destruidas</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img className='mx-auto pb-3' width="48" height="48" src="https://img.icons8.com/color/48/dental-implant.png" alt="dental-implant"/>
+                            <h2 className='lg:text-center text-left'>Prótesis fijas y removibles</h2>
+                            <ul className='list-disc font-light pl-6'>
+                                <li>Coronas de porcelana en zirconia</li>  
+                                <li>Coronas de porcelana en alúmina</li> 
+                                <li>Coronas de porcelana prensada</li>  
+                                <li>Coronas en metal y oro porcelana</li>
+                                <li>Prótesis total o parcial</li>
+                                <li>Guardas oclusales con activación</li>
+                                <li>Implantes dentales de última generación</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img className='mx-auto pb-3' width="48" height="48" src="https://img.icons8.com/cotton/48/tooth-xray--v4.png" alt="tooth-xray--v4"/>                           
+                            <h2 className='lg:text-center text-left'>Otros servicios generales</h2>
+                            <ul className='list-disc font-light pl-6'>
+                                <li>Limpiezas con Ultrasonido</li>
+                                <li>Rayos X</li>
+                                <li>Diagnóstico clínico con cámara intraoral</li>
+                                <li>Rayo Láser Terapéutico</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img className='w-full lg:h-[80vh] h-[50vh] object-cover object-center' src="/img/odontologia-3.webp"/>
+                </div>
             </div>
+
+            {/* paquetes */}
+            <section className='w-11/12 mx-auto mb-24'>
+                <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-3 gap-6 text-lg'>
+                    <div className='py-6 px-12 text-white' id='paquete1'>
+                        <h2 className='text-center text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Paquete 1</h2>
+                        <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>8 carillas de resina X de $20,000  a $16,000 precio especial (frente estético) Incluye:</p>
+                        <ul className='list-disc pl-10 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
+                            <li>Diseño de sonrisa digital</li>
+                            <li>Fotografías</li> 
+                            <li>Radiografías</li>
+                            <li>Aplica restricciones</li>
+                        </ul>
+                    </div>
+                    <div className='py-6 px-12 text-white' id='paquete2'>
+                        <h2 className='text-center text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Paquete 2</h2>
+                        <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Consulta + diagnóstico de $800 a $650 Incluye: </p>
+                        <ul className='list-disc pl-10 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
+                            <li>Limpieza con ultrasonido de regalo</li>
+                        </ul>
+                    </div>
+                    <div className='py-6 px-12 text-white' id='paquete3'>
+                        <h2 className='text-center text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Paquete 3</h2>
+                        <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Blanqueamiento dental de $4,800 a  $3,800 Incluye:</p>
+                        <ul className='list-disc pl-10 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
+                            <li>Limpieza con ultrasonido</li>
+                            <li>Activación en consultorio + blanqueamiento de casa</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
             
         </>
     );

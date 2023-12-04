@@ -27,10 +27,40 @@
 
 #promotional {
     background: linear-gradient(
-            rgba(199, 199, 199, 0.7) 100%,
-            rgba(214, 214, 214, 0.4) 100%
+        rgba(232, 232, 232, 0.7) 100%,
+        rgba(214, 214, 214, 0.4) 100%
         ),
         url(/img/hero-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#paquete1 {
+    background: linear-gradient(
+        rgba(160, 159, 159, 0.7) 100%,
+        rgba(96, 95, 95, 0.4) 100%
+        ),
+        url(/img/odontologia6.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#paquete2 {
+    background: linear-gradient(
+        rgba(111, 180, 183, 0.7) 100%,
+        rgba(4, 180, 188, 0.4) 100%
+        ),
+        url(/img/odontologia2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#paquete3 {
+    background: linear-gradient(
+        rgba(160, 159, 159, 0.7) 100%,
+        rgba(96, 95, 95, 0.4) 100%
+        ),
+        url(/img/blanqueamiento-dental.webp);
     background-size: cover;
     background-position: center;
 }
