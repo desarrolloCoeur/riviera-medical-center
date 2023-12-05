@@ -5,7 +5,7 @@
 import { useEffect, useState } from "react";
 import data from "../../../data/services.json";
 import Image from "next/image";
-import Odontologia from "@/components/servicios/odontologia";
+import Odontologia from "@/components/servicios/Odontologia";
 
 const page = ({ params: { slug } }) => {
     const [service, setService] = useState(null);
