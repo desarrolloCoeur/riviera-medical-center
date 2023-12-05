@@ -5,6 +5,7 @@
 import { useEffect, useState } from "react";
 import data from "../../../data/services.json";
 import Image from "next/image";
+import Odontologia from "@/components/servicios/Odontologia";
 
 const page = ({ params: { slug } }) => {
     const [service, setService] = useState(null);
@@ -25,6 +26,10 @@ const page = ({ params: { slug } }) => {
             </div>
         );
     }
+
+    if (slug == "odontologia") {
+        return <Odontologia />
+    } else {
 
     return (
         <>
@@ -168,6 +173,8 @@ const page = ({ params: { slug } }) => {
             
         </>
     );
+
+    }
 };
 
 export default page;
