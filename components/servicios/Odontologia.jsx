@@ -64,6 +64,7 @@ const Odontologia = () => {
                     <Image className='mx-auto pb-3' width="48" height="48" src="/img/tooth.png" alt="tooth"/>
                     <h2 className='lg:text-center text-left'>Servicios Estéticos</h2>
                     <ul className='list-disc font-light pl-6'>
+                        <li>Diseño de Sonrisa Digital</li>
                         <li>Blanqueamientos</li>
                         <li>Carillas de Porcelana</li>
                         <li>Carillas directas de resina</li> 
@@ -119,7 +120,7 @@ const Odontologia = () => {
         <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-3 gap-6 text-lg'>
             <div className='py-6 px-12 text-white' id='paquete1'>
                 <h2 className='text-center text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Paquete 1</h2>
-                <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>8 carillas de resina X de $20,000  a $16,000 precio especial (frente estético) Incluye:</p>
+                <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>8 carillas de resina X a precio de 6 (frente estético) <br/> Incluye:</p>
                 <ul className='list-disc pl-10 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
                     <li>Diseño de sonrisa digital</li>
                     <li>Fotografías</li> 
@@ -129,14 +130,14 @@ const Odontologia = () => {
             </div>
             <div className='py-6 px-12 text-white' id='paquete2'>
                 <h2 className='text-center text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Paquete 2</h2>
-                <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Consulta + diagnóstico de $800 a $650 Incluye: </p>
+                <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Consulta + diagnóstico <br/> Incluye: </p>
                 <ul className='list-disc pl-10 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
                     <li>Limpieza con ultrasonido de regalo</li>
                 </ul>
             </div>
             <div className='py-6 px-12 text-white' id='paquete3'>
                 <h2 className='text-center text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Paquete 3</h2>
-                <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Blanqueamiento dental de $4,800 a  $3,800 Incluye:</p>
+                <p className='[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Blanqueamiento dental <br/>  Incluye:</p>
                 <ul className='list-disc pl-10 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
                     <li>Limpieza con ultrasonido</li>
                     <li>Activación en consultorio + blanqueamiento de casa</li>
